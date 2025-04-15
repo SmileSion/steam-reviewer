@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <title>Steam 毒舌锐评生成器</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 font-sans">
+  <div class="max-w-3xl mx-auto py-10">
+    <h1 class="text-3xl font-bold text-center mb-6">🎮 Steam 毒舌锐评生成器</h1>
+
+    <div class="bg-white shadow-md rounded p-6">
+      <label class="block mb-2 text-lg font-semibold">请输入Steam用户ID：</label>
+      <input id="steamIdInput" class="w-full p-3 border rounded mb-4" placeholder="例如：76561198403581191">
+
+      <button onclick="generateReview()" class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">生成报告</button>
+
+      <div id="loading" class="mt-4 text-gray-600 hidden">🌀 正在生成，请稍候...</div>
+    </div>
+
+    <div id="report" class="bg-white shadow-md rounded p-6 mt-6 hidden">
+      <div id="reportContent" class="whitespace-pre-line"></div>
+      <button onclick="downloadReport()" class="mt-4 bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700">📥 下载图片</button>
+    </div>
+  </div>
+
+  <script>
+    function generateReview() {
+      const steamId = document.getElementById("steamIdInput").value;
+      const loading = document.getElementById("loading");
+      const reportDiv = document.getElementById("report");
+      const reportContent = document.getElementById("reportContent");
+
+      if (!steamId) {
+        alert("请输入有效的 Steam ID");
+        return;
+      }
+
+      loading.classList.remove("hidden");
+      reportDiv.classList.add("hidden");
+      reportContent.innerText = "";
+
+      fetch(`/review?steamid=${steamId}`)
+        .then(res => res.text())
+        .then(data => {
+          loading.classList.add("hidden");
+          reportDiv.classList.remove("hidden");
+          reportContent.innerText = data;
+        })
+        .catch(err => {
+          loading.classList.add("hidden");
+          alert("生成失败：" + err.message);
+        });
+    }
+
+    function downloadReport() {
+      html2canvas(document.querySelector("#report")).then(canvas => {
+        const link = document.createElement("a");
+        link.download = "steam_review.png";
+        link.href = canvas.toDataURL();
+        link.click();
+      });
+    }
+  </script>
+  <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+</body>
+</html>
