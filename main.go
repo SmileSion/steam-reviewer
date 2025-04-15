@@ -64,40 +64,45 @@ type DeepSeekResponse struct {
 }
 
 func main() {
-	steamAPIKey := "A0453261FC35DFAC250BFC0C1510878C"        // 填入你的 Steam API Key
-	steamID := "76561198403581191"
-	deepseekAPIKey := "sk-5a5ca94b00fa4e8f9115e3f2bfc72ed2"     // 填入你的 DeepSeek API Key
+	http.HandleFunc("/review", handleReview)
+	http.Handle("/", http.FileServer(http.Dir("./public"))) // 放前端index.html的位置
+
+	fmt.Println("启动服务：http://localhost:9010")
+	http.ListenAndServe(":9010", nil)
+}
+
+func handleReview(w http.ResponseWriter, r *http.Request) {
+	steamAPIKey := "A0453261FC35DFAC250BFC0C1510878C"
+	deepseekAPIKey := "sk-5a5ca94b00fa4e8f9115e3f2bfc72ed2"
+
+	steamID := r.URL.Query().Get("steamid")
+	if steamID == "" {
+		http.Error(w, "缺少steamid参数", http.StatusBadRequest)
+		return
+	}
 
 	player, games, err := getSteamData(steamAPIKey, steamID)
 	if err != nil {
-		fmt.Printf("获取Steam数据失败: %v\n", err)
+		http.Error(w, fmt.Sprintf("获取Steam数据失败: %v", err), http.StatusInternalServerError)
 		return
 	}
 
 	prompt := buildSavagePrompt(player, games)
-
 	review, err := generateDeepSeekReview(deepseekAPIKey, prompt)
 	if err != nil {
-		fmt.Printf("生成锐评失败: %v\n", err)
+		http.Error(w, fmt.Sprintf("生成锐评失败: %v", err), http.StatusInternalServerError)
 		return
 	}
 
-	// Markdown 格式报告输出
-	fmt.Printf("\n### Steam游戏库毒舌锐评报告\n")
-	fmt.Printf("**玩家:** %s\n", player.PersonaName)
-	fmt.Printf("![头像](%s)\n\n", player.AvatarFull) // 头像展示
-
-	// 注册时间、游戏信息
-	fmt.Printf("**注册时间:** %s\n", time.Unix(int64(player.TimeCreated), 0).Format("2006-01-02"))
-	fmt.Printf("**总游戏数:** %d | **总时长:** %.1f 小时\n\n", len(games), calculateTotalHours(games))
-
-	// 锐评部分
-	fmt.Println("```")
-	fmt.Println(review)
-	fmt.Println("```")
-
-	// 添加DeepSeek生成提示
-	fmt.Println("\n*深度锐评来源: DeepSeek-R1生成*")
+	// 返回纯文本
+	w.Header().Set("Content-Type", "text/plain; charset=utf-8")
+	fmt.Fprintf(w, "👤 玩家：%s\n🗓️ 注册时间：%s\n🎮 总游戏：%d | 总时长：%.1f小时\n\n%s\n\n🌶️ 锐评来源：DeepSeek-R1",
+		player.PersonaName,
+		time.Unix(int64(player.TimeCreated), 0).Format("2006-01-02"),
+		len(games),
+		calculateTotalHours(games),
+		review,
+	)
 }
 
 func getSteamData(apiKey, steamID string) (*SteamPlayer, []SteamGame, error) {
