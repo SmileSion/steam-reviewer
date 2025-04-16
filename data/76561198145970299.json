@@ -1,0 +1,1129 @@
+{
+  "player": {
+    "steamid": "76561198145970299",
+    "personaname": "Sou1star",
+    "avatarfull": "https://avatars.steamstatic.com/283f9f6cbccc29510dd628dc9f122bc66c3ec4e8_full.jpg",
+    "timecreated": 1405909751,
+    "loccountrycode": "CN"
+  },
+  "games": [
+    {
+      "appid": 236390,
+      "name": "War Thunder",
+      "playtime_forever": 164945,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 359550,
+      "name": "Tom Clancy's Rainbow Six Siege",
+      "playtime_forever": 41233,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 730,
+      "name": "Counter-Strike 2",
+      "playtime_forever": 39273,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 1172470,
+      "name": "Apex Legends",
+      "playtime_forever": 27354,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 271590,
+      "name": "Grand Theft Auto V Legacy",
+      "playtime_forever": 16932,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 105600,
+      "name": "Terraria",
+      "playtime_forever": 12549,
+      "playtime_2weeks": 11
+    },
+    {
+      "appid": 304930,
+      "name": "Unturned",
+      "playtime_forever": 9717,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 427520,
+      "name": "Factorio",
+      "playtime_forever": 7035,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 374320,
+      "name": "DARK SOULS™ III",
+      "playtime_forever": 6644,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 251570,
+      "name": "7 Days to Die",
+      "playtime_forever": 4729,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 1329410,
+      "name": "雀魂麻将(MahjongSoul)",
+      "playtime_forever": 4397,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 1366540,
+      "name": "Dyson Sphere Program",
+      "playtime_forever": 4080,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 526870,
+      "name": "Satisfactory",
+      "playtime_forever": 2722,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 431960,
+      "name": "Wallpaper Engine",
+      "playtime_forever": 2101,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 413150,
+      "name": "Stardew Valley",
+      "playtime_forever": 1860,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 292030,
+      "name": "The Witcher 3: Wild Hunt",
+      "playtime_forever": 1858,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 4000,
+      "name": "Garry's Mod",
+      "playtime_forever": 1704,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 435150,
+      "name": "Divinity: Original Sin 2",
+      "playtime_forever": 1700,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 211820,
+      "name": "Starbound",
+      "playtime_forever": 1677,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 1483870,
+      "name": "Draw \u0026 Guess",
+      "playtime_forever": 1442,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 1145360,
+      "name": "Hades",
+      "playtime_forever": 1402,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 289070,
+      "name": "Sid Meier's Civilization VI",
+      "playtime_forever": 1130,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 269770,
+      "name": "Secrets of Grindea",
+      "playtime_forever": 1120,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 1238810,
+      "name": "Battlefield™ V",
+      "playtime_forever": 1108,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 346010,
+      "name": "Besiege",
+      "playtime_forever": 1087,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 286160,
+      "name": "Tabletop Simulator",
+      "playtime_forever": 1020,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 239140,
+      "name": "Dying Light",
+      "playtime_forever": 1012,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 70,
+      "name": "Half-Life",
+      "playtime_forever": 940,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 1206060,
+      "name": "Happy Game",
+      "playtime_forever": 850,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 1172620,
+      "name": "Sea of Thieves",
+      "playtime_forever": 839,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 233860,
+      "name": "Kenshi",
+      "playtime_forever": 826,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 632360,
+      "name": "Risk of Rain 2",
+      "playtime_forever": 803,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 1568590,
+      "name": "Goose Goose Duck",
+      "playtime_forever": 803,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 220,
+      "name": "Half-Life 2",
+      "playtime_forever": 794,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 1237970,
+      "name": "Titanfall® 2",
+      "playtime_forever": 756,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 356570,
+      "name": "Party Hard",
+      "playtime_forever": 741,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 225540,
+      "name": "Just Cause 3",
+      "playtime_forever": 739,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 1504980,
+      "name": "It Takes Two Friend's Pass",
+      "playtime_forever": 735,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 477160,
+      "name": "Human Fall Flat",
+      "playtime_forever": 699,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 644560,
+      "name": "Mirror",
+      "playtime_forever": 635,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 1092790,
+      "name": "Inscryption",
+      "playtime_forever": 599,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 1623730,
+      "name": "Palworld",
+      "playtime_forever": 576,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 301520,
+      "name": "Robocraft",
+      "playtime_forever": 573,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 1174180,
+      "name": "Red Dead Redemption 2",
+      "playtime_forever": 571,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 233450,
+      "name": "Prison Architect",
+      "playtime_forever": 544,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 377160,
+      "name": "Fallout 4",
+      "playtime_forever": 537,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 1465360,
+      "name": "SnowRunner",
+      "playtime_forever": 476,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 274190,
+      "name": "Broforce",
+      "playtime_forever": 443,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 1832640,
+      "name": "Mirror 2: Project X",
+      "playtime_forever": 437,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 224480,
+      "name": "Octodad: Dadliest Catch",
+      "playtime_forever": 385,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 220200,
+      "name": "Kerbal Space Program",
+      "playtime_forever": 375,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 244850,
+      "name": "Space Engineers",
+      "playtime_forever": 358,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 3590,
+      "name": "Plants vs. Zombies: Game of the Year",
+      "playtime_forever": 356,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 322330,
+      "name": "Don't Starve Together",
+      "playtime_forever": 354,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 239030,
+      "name": "Papers, Please",
+      "playtime_forever": 340,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 1245620,
+      "name": "ELDEN RING",
+      "playtime_forever": 337,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 233720,
+      "name": "Surgeon Simulator",
+      "playtime_forever": 336,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 108600,
+      "name": "Project Zomboid",
+      "playtime_forever": 321,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 381210,
+      "name": "Dead by Daylight",
+      "playtime_forever": 312,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 219740,
+      "name": "Don't Starve",
+      "playtime_forever": 307,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 1097150,
+      "name": "Fall Guys",
+      "playtime_forever": 305,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 367450,
+      "name": "Poly Bridge",
+      "playtime_forever": 290,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 333600,
+      "name": "NEKOPARA Vol. 1",
+      "playtime_forever": 282,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 10,
+      "name": "Counter-Strike",
+      "playtime_forever": 260,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 550,
+      "name": "Left 4 Dead 2",
+      "playtime_forever": 250,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 394510,
+      "name": "HELLDIVERS™",
+      "playtime_forever": 223,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 238460,
+      "name": "BattleBlock Theater",
+      "playtime_forever": 186,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 884660,
+      "name": "CRSED: Cuisine Royale",
+      "playtime_forever": 177,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 755790,
+      "name": "Ring of Elysium",
+      "playtime_forever": 175,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 242760,
+      "name": "The Forest",
+      "playtime_forever": 162,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 1938090,
+      "name": "Call of Duty®",
+      "playtime_forever": 157,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 814380,
+      "name": "Sekiro™: Shadows Die Twice",
+      "playtime_forever": 153,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 714010,
+      "name": "Aimlabs",
+      "playtime_forever": 141,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 1593310,
+      "name": "NEKOPARA - Catboys Paradise",
+      "playtime_forever": 135,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 602960,
+      "name": "Barotrauma",
+      "playtime_forever": 129,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 570,
+      "name": "Dota 2",
+      "playtime_forever": 108,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 457140,
+      "name": "Oxygen Not Included",
+      "playtime_forever": 107,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 317470,
+      "name": "Cubic Castles",
+      "playtime_forever": 100,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 666220,
+      "name": "CS2D",
+      "playtime_forever": 97,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 280180,
+      "name": "Hover",
+      "playtime_forever": 96,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 1407200,
+      "name": "World of Tanks",
+      "playtime_forever": 90,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 424840,
+      "name": "Little Nightmares",
+      "playtime_forever": 87,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 233980,
+      "name": "Unepic",
+      "playtime_forever": 72,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 433850,
+      "name": "Z1 Battle Royale",
+      "playtime_forever": 71,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 1238840,
+      "name": "Battlefield™ 1",
+      "playtime_forever": 68,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 223470,
+      "name": "POSTAL 2",
+      "playtime_forever": 66,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 400,
+      "name": "Portal",
+      "playtime_forever": 65,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 578080,
+      "name": "PUBG: BATTLEGROUNDS",
+      "playtime_forever": 65,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 1507970,
+      "name": "Word Game: Episode 0",
+      "playtime_forever": 61,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 823130,
+      "name": "Totally Accurate Battlegrounds",
+      "playtime_forever": 58,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 440,
+      "name": "Team Fortress 2",
+      "playtime_forever": 57,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 1371480,
+      "name": "Iron Conflict",
+      "playtime_forever": 54,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 2073850,
+      "name": "THE FINALS",
+      "playtime_forever": 52,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 335300,
+      "name": "DARK SOULS™ II: Scholar of the First Sin",
+      "playtime_forever": 50,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 760620,
+      "name": "Deiland",
+      "playtime_forever": 46,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 240,
+      "name": "Counter-Strike: Source",
+      "playtime_forever": 45,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 255710,
+      "name": "Cities: Skylines",
+      "playtime_forever": 33,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 588210,
+      "name": "HELLION",
+      "playtime_forever": 29,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 305260,
+      "name": "Battle Islands",
+      "playtime_forever": 26,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 1249200,
+      "name": "Ghostrunner Demo",
+      "playtime_forever": 23,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 559960,
+      "name": "Power Hover",
+      "playtime_forever": 22,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 702150,
+      "name": "Project Mercury",
+      "playtime_forever": 15,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 958260,
+      "name": "DEAD OR ALIVE Xtreme Venus Vacation",
+      "playtime_forever": 14,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 209670,
+      "name": "Cortex Command",
+      "playtime_forever": 13,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 770460,
+      "name": "The Dummy Experiment",
+      "playtime_forever": 11,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 268750,
+      "name": "Magicite",
+      "playtime_forever": 10,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 60,
+      "name": "Ricochet",
+      "playtime_forever": 10,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 223750,
+      "name": "DCS World Steam Edition",
+      "playtime_forever": 9,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 1856540,
+      "name": "Mirror News Center",
+      "playtime_forever": 6,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 302830,
+      "name": "BLOCKADE 3D",
+      "playtime_forever": 6,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 420110,
+      "name": "NEKOPARA Vol. 2",
+      "playtime_forever": 6,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 293540,
+      "name": "Guns and Robots",
+      "playtime_forever": 6,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 670290,
+      "name": "Real Pool 3D - Poolians",
+      "playtime_forever": 5,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 769920,
+      "name": "Odysseus Kosmos and his Robot Quest - Episode 1",
+      "playtime_forever": 5,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 618140,
+      "name": "Barro",
+      "playtime_forever": 4,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 295710,
+      "name": "Darkwind: War on Wheels",
+      "playtime_forever": 3,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 200210,
+      "name": "Realm of the Mad God Exalt",
+      "playtime_forever": 2,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 1987080,
+      "name": "Inside the Backrooms",
+      "playtime_forever": 2,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 1281930,
+      "name": "tModLoader",
+      "playtime_forever": 1,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 602520,
+      "name": "NEKOPARA Vol. 3",
+      "playtime_forever": 1,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 572430,
+      "name": "Party Hard 2 ",
+      "playtime_forever": 1,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 623990,
+      "name": "Tom Clancy's Rainbow Six Siege - Test Server",
+      "playtime_forever": 0,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 373420,
+      "name": "Divinity: Original Sin Enhanced Edition",
+      "playtime_forever": 0,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 923890,
+      "name": "Yet another tower defence",
+      "playtime_forever": 0,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 450390,
+      "name": "The Lab",
+      "playtime_forever": 0,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 278360,
+      "name": "A Story About My Uncle",
+      "playtime_forever": 0,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 343710,
+      "name": "KHOLAT",
+      "playtime_forever": 0,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 899970,
+      "name": "NEKOPARA Extra",
+      "playtime_forever": 0,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 3240220,
+      "name": "Grand Theft Auto V Enhanced",
+      "playtime_forever": 0,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 367540,
+      "name": "Starbound - Unstable",
+      "playtime_forever": 0,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 896030,
+      "name": "Fortissimo FA INTL Ver",
+      "playtime_forever": 0,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 250420,
+      "name": "8BitMMO",
+      "playtime_forever": 0,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 295550,
+      "name": "Royal Quest",
+      "playtime_forever": 0,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 1184140,
+      "name": "KartRider: Drift",
+      "playtime_forever": 0,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 865850,
+      "name": "Dehumanized",
+      "playtime_forever": 0,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 863550,
+      "name": "HITMAN™ 2",
+      "playtime_forever": 0,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 211070,
+      "name": "Check vs. Mate",
+      "playtime_forever": 0,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 1222680,
+      "name": "Need for Speed™ Heat ",
+      "playtime_forever": 0,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 20920,
+      "name": "The Witcher 2: Assassins of Kings Enhanced Edition",
+      "playtime_forever": 0,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 620,
+      "name": "Portal 2",
+      "playtime_forever": 0,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 844920,
+      "name": "Fortissimo FA",
+      "playtime_forever": 0,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 20900,
+      "name": "The Witcher: Enhanced Edition",
+      "playtime_forever": 0,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 555000,
+      "name": "GOAT OF DUTY",
+      "playtime_forever": 0,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 797410,
+      "name": "Headsnatchers",
+      "playtime_forever": 0,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 439700,
+      "name": "H1Z1: Test Server",
+      "playtime_forever": 0,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 203160,
+      "name": "Tomb Raider",
+      "playtime_forever": 0,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 289690,
+      "name": "Lara Croft and the Temple of Osiris",
+      "playtime_forever": 0,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 792220,
+      "name": "Paunch",
+      "playtime_forever": 0,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 814200,
+      "name": "Simple Story - Alex",
+      "playtime_forever": 0,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 508190,
+      "name": "Dragon Knight",
+      "playtime_forever": 0,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 335190,
+      "name": "200% Mixed Juice!",
+      "playtime_forever": 0,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 390710,
+      "name": "Acceleration of SUGURI 2",
+      "playtime_forever": 0,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 282800,
+      "name": "100% Orange Juice",
+      "playtime_forever": 0,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 420740,
+      "name": "The Deed",
+      "playtime_forever": 0,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 925470,
+      "name": "Endless Jade Sea -Midori no Umi-",
+      "playtime_forever": 0,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 219780,
+      "name": "Divinity II: Developer's Cut",
+      "playtime_forever": 0,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 835570,
+      "name": "Conqueror's Blade",
+      "playtime_forever": 0,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 500,
+      "name": "Left 4 Dead",
+      "playtime_forever": 0,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 219760,
+      "name": "Beyond Divinity",
+      "playtime_forever": 0,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 280,
+      "name": "Half-Life: Source",
+      "playtime_forever": 0,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 214170,
+      "name": "Divine Divinity",
+      "playtime_forever": 0,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 360,
+      "name": "Half-Life Deathmatch: Source",
+      "playtime_forever": 0,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 320,
+      "name": "Half-Life 2: Deathmatch",
+      "playtime_forever": 0,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 130,
+      "name": "Half-Life: Blue Shift",
+      "playtime_forever": 0,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 698780,
+      "name": "Doki Doki Literature Club",
+      "playtime_forever": 0,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 616560,
+      "name": "Ultimate Epic Battle Simulator",
+      "playtime_forever": 0,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 686180,
+      "name": "Cat Girl",
+      "playtime_forever": 0,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 385800,
+      "name": "NEKOPARA Vol. 0",
+      "playtime_forever": 0,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 50,
+      "name": "Half-Life: Opposing Force",
+      "playtime_forever": 0,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 40,
+      "name": "Deathmatch Classic",
+      "playtime_forever": 0,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 30,
+      "name": "Day of Defeat",
+      "playtime_forever": 0,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 601150,
+      "name": "Devil May Cry 5",
+      "playtime_forever": 0,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 658850,
+      "name": "Do Not Feed the Monkeys",
+      "playtime_forever": 0,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 20,
+      "name": "Team Fortress Classic",
+      "playtime_forever": 0,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 300,
+      "name": "Day of Defeat: Source",
+      "playtime_forever": 0,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 290340,
+      "name": "Armello",
+      "playtime_forever": 0,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 635730,
+      "name": "Dragonia",
+      "playtime_forever": 0,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 575550,
+      "name": "Hell Girls",
+      "playtime_forever": 0,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 346110,
+      "name": "ARK: Survival Evolved",
+      "playtime_forever": 0,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 407530,
+      "name": "ARK: Survival Of The Fittest",
+      "playtime_forever": 0,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 552990,
+      "name": "World of Warships",
+      "playtime_forever": 0,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 100,
+      "name": "Counter-Strike: Condition Zero Deleted Scenes",
+      "playtime_forever": 0,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 544610,
+      "name": "Battlestar Galactica Deadlock",
+      "playtime_forever": 0,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 43160,
+      "name": "Metro: Last Light Complete Edition",
+      "playtime_forever": 0,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 319630,
+      "name": "Life is Strange™",
+      "playtime_forever": 0,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 80,
+      "name": "Counter-Strike: Condition Zero",
+      "playtime_forever": 0,
+      "playtime_2weeks": 0
+    }
+  ],
+  "review": "【Soulstarの赛博病历本】\n--您关注的电子病人已上线--\n\n▶▶板块一《电子打工人の福报》\n这位2014年入坑的远古仓鼠，用6422小时完美诠释了什么叫\"肝上长了个活人\"。前三位网游堪称当代赛博三件套：战争雷霆是给M系战车当人肉反应装甲，彩虹六号在豪宅里和装修队激情对射，CS2则用654小时证明\"练枪半小时，白给一分钟\"的永恒真理。建议直接成立《电竞工伤保险法律援助中心》\n\n▶▶板块二《老头滚动条式精分》\n一边在黑暗之魂3被古达老师军训110小时，一边在未转变者里快乐捡垃圾161小时，完美演绎\"上午当薪王，下午做废柴\"的量子态生存。更离谱的是居然在GTA5里坚持282小时没装任何涩涩MOD，这纯度建议直接保送电子修道院\n\n▶▶板块三《赛博土木の奇妙冒险》\n当别人在星露谷种田养老时，这位在七日杀建末日碉堡，在异星工厂用117小时手搓戴森球，在泰拉瑞亚挖穿209个地心——建议直接报考《流浪地球2》地下城施工队。别人玩游戏是消遣，您这是给自己整了个线上蓝翔技校啊！\n\n▶▶板块四《电子阳痿临床诊断》\n看似186款游戏家大业大，实则前三大作就占了半壁江山。尤其是战争雷霆2749小时，相当于连续114天不眠不休被安东星人PUA。建议安装\"Steam防沉迷系统\"，每次启动前自动播放《国际歌》防止变资本家的赛博黑奴\n\n▶▶补货推荐\n-《逃离塔科夫》：让您体验在FPS里007上班的快感\n-《Valheim》：维京人看了您的建筑时长都直呼内行\n-《星露谷物语》：建议和现有游戏组成\"精分全家桶\"\n\n▼▼反鸡汤总结▼▼\n当您用6422小时证明自己是\"时间管理带师\"时，游戏厂商正用您的在线时长给股东画饼。那些在战争雷霆里击毁的坦克，终将成为您简历上消失的青春。不过别担心——反正下辈子您投胎成安东星油箱时，这些经验都用得上（笑）",
+  "generated_at": "2025-04-16T10:25:49.5908638+08:00"
+}

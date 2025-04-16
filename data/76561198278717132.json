@@ -1,0 +1,721 @@
+{
+  "player": {
+    "steamid": "76561198278717132",
+    "personaname": "炎炎夏日Quincy",
+    "avatarfull": "https://avatars.steamstatic.com/97b684d176216b8d79b0faae2fdb147420bb4511_full.jpg",
+    "timecreated": 1453620537,
+    "loccountrycode": "CN"
+  },
+  "games": [
+    {
+      "appid": 730,
+      "name": "Counter-Strike 2",
+      "playtime_forever": 71469,
+      "playtime_2weeks": 310
+    },
+    {
+      "appid": 250900,
+      "name": "The Binding of Isaac: Rebirth",
+      "playtime_forever": 53275,
+      "playtime_2weeks": 565
+    },
+    {
+      "appid": 646570,
+      "name": "Slay the Spire",
+      "playtime_forever": 14555,
+      "playtime_2weeks": 90
+    },
+    {
+      "appid": 105600,
+      "name": "Terraria",
+      "playtime_forever": 11726,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 413150,
+      "name": "Stardew Valley",
+      "playtime_forever": 7811,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 477160,
+      "name": "Human Fall Flat",
+      "playtime_forever": 3273,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 322330,
+      "name": "Don't Starve Together",
+      "playtime_forever": 2550,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 1942280,
+      "name": "Brotato",
+      "playtime_forever": 2546,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 431960,
+      "name": "Wallpaper Engine",
+      "playtime_forever": 2510,
+      "playtime_2weeks": 3
+    },
+    {
+      "appid": 1483870,
+      "name": "Draw \u0026 Guess",
+      "playtime_forever": 2464,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 960090,
+      "name": "Bloons TD 6",
+      "playtime_forever": 2052,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 972660,
+      "name": "Spiritfarer®: Farewell Edition",
+      "playtime_forever": 1992,
+      "playtime_2weeks": 1001
+    },
+    {
+      "appid": 2666510,
+      "name": "Rusty's Retirement",
+      "playtime_forever": 1893,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 3590,
+      "name": "Plants vs. Zombies: Game of the Year",
+      "playtime_forever": 1892,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 246420,
+      "name": "Kingdom Rush",
+      "playtime_forever": 1798,
+      "playtime_2weeks": 125
+    },
+    {
+      "appid": 238460,
+      "name": "BattleBlock Theater",
+      "playtime_forever": 1758,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 578080,
+      "name": "PUBG: BATTLEGROUNDS",
+      "playtime_forever": 1525,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 286160,
+      "name": "Tabletop Simulator",
+      "playtime_forever": 1342,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 367520,
+      "name": "Hollow Knight",
+      "playtime_forever": 1336,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 1267910,
+      "name": "Melvor Idle",
+      "playtime_forever": 1076,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 323850,
+      "name": "Move or Die",
+      "playtime_forever": 1026,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 504230,
+      "name": "Celeste",
+      "playtime_forever": 963,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 387290,
+      "name": "Ori and the Blind Forest: Definitive Edition",
+      "playtime_forever": 956,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 324160,
+      "name": "CLANNAD",
+      "playtime_forever": 883,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 880940,
+      "name": "Pummel Party",
+      "playtime_forever": 817,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 785790,
+      "name": "WHAT THE GOLF?",
+      "playtime_forever": 794,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 433340,
+      "name": "Slime Rancher",
+      "playtime_forever": 778,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 1097150,
+      "name": "Fall Guys",
+      "playtime_forever": 778,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 386940,
+      "name": "Ultimate Chicken Horse",
+      "playtime_forever": 760,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 1057090,
+      "name": "Ori and the Will of the Wisps",
+      "playtime_forever": 737,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 1109570,
+      "name": "Word Game",
+      "playtime_forever": 635,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 469790,
+      "name": "Linelight",
+      "playtime_forever": 630,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 218680,
+      "name": "Scribblenauts Unlimited",
+      "playtime_forever": 626,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 1338580,
+      "name": "McPixel 3",
+      "playtime_forever": 608,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 524910,
+      "name": "Hidden Through Time",
+      "playtime_forever": 600,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 204360,
+      "name": "Castle Crashers",
+      "playtime_forever": 600,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 1222140,
+      "name": "Detroit: Become Human",
+      "playtime_forever": 597,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 977950,
+      "name": "A Dance of Fire and Ice",
+      "playtime_forever": 576,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 562220,
+      "name": "Zup! 2",
+      "playtime_forever": 534,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 1055540,
+      "name": "A Short Hike",
+      "playtime_forever": 524,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 448510,
+      "name": "Overcooked",
+      "playtime_forever": 478,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 400630,
+      "name": "Wuppo - Definitive Edition",
+      "playtime_forever": 475,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 322170,
+      "name": "Geometry Dash",
+      "playtime_forever": 470,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 533300,
+      "name": "Zup!",
+      "playtime_forever": 446,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 881100,
+      "name": "Noita",
+      "playtime_forever": 428,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 326460,
+      "name": "ShellShock Live",
+      "playtime_forever": 406,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 1509960,
+      "name": "PICO PARK",
+      "playtime_forever": 403,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 1091920,
+      "name": "Plantera 2: Golden Acorn",
+      "playtime_forever": 381,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 1281930,
+      "name": "tModLoader",
+      "playtime_forever": 381,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 265930,
+      "name": "Goat Simulator",
+      "playtime_forever": 357,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 391540,
+      "name": "Undertale",
+      "playtime_forever": 348,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 214550,
+      "name": "Eets Munchies",
+      "playtime_forever": 342,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 508440,
+      "name": "Totally Accurate Battle Simulator",
+      "playtime_forever": 321,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 95400,
+      "name": "ibb \u0026 obb",
+      "playtime_forever": 310,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 230270,
+      "name": "N++",
+      "playtime_forever": 309,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 575640,
+      "name": "Zup! 3",
+      "playtime_forever": 309,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 591420,
+      "name": "Zup! 4",
+      "playtime_forever": 306,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 641990,
+      "name": "The Escapists 2",
+      "playtime_forever": 296,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 359840,
+      "name": "Shift Happens",
+      "playtime_forever": 294,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 527230,
+      "name": "For The King",
+      "playtime_forever": 292,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 1714040,
+      "name": "Super Auto Pets",
+      "playtime_forever": 278,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 270210,
+      "name": "Melody's Escape",
+      "playtime_forever": 274,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 2291850,
+      "name": "Underground Blossom",
+      "playtime_forever": 234,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 913550,
+      "name": "I wanna be the Creator",
+      "playtime_forever": 213,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 1436590,
+      "name": "Phoenotopia Awakening",
+      "playtime_forever": 189,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 282800,
+      "name": "100% Orange Juice",
+      "playtime_forever": 171,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 457140,
+      "name": "Oxygen Not Included",
+      "playtime_forever": 169,
+      "playtime_2weeks": 169
+    },
+    {
+      "appid": 311690,
+      "name": "Enter the Gungeon",
+      "playtime_forever": 163,
+      "playtime_2weeks": 122
+    },
+    {
+      "appid": 702670,
+      "name": "Donut County",
+      "playtime_forever": 158,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 945360,
+      "name": "Among Us",
+      "playtime_forever": 155,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 211820,
+      "name": "Starbound",
+      "playtime_forever": 136,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 640890,
+      "name": "Will Glow the Wisp",
+      "playtime_forever": 127,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 1180320,
+      "name": " War of the Three Kingdoms",
+      "playtime_forever": 121,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 367450,
+      "name": "Poly Bridge",
+      "playtime_forever": 120,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 764570,
+      "name": "Beavers Be Dammed",
+      "playtime_forever": 98,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 1515210,
+      "name": "The Past Within",
+      "playtime_forever": 84,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 893720,
+      "name": "One Hand Clapping",
+      "playtime_forever": 78,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 588650,
+      "name": "Dead Cells",
+      "playtime_forever": 70,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 1568590,
+      "name": "Goose Goose Duck",
+      "playtime_forever": 69,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 645090,
+      "name": "Zup! 5",
+      "playtime_forever": 61,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 560260,
+      "name": "Super Blue Boy Planet",
+      "playtime_forever": 55,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 673950,
+      "name": "Farm Together",
+      "playtime_forever": 42,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 1731870,
+      "name": "Viral Firar",
+      "playtime_forever": 37,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 621060,
+      "name": "PC Building Simulator",
+      "playtime_forever": 32,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 620,
+      "name": "Portal 2",
+      "playtime_forever": 30,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 559650,
+      "name": "Witch It",
+      "playtime_forever": 20,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 1455900,
+      "name": "Plunder Panic",
+      "playtime_forever": 14,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 346110,
+      "name": "ARK: Survival Evolved",
+      "playtime_forever": 11,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 792220,
+      "name": "Paunch",
+      "playtime_forever": 11,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 3224420,
+      "name": "Milky Way Idle",
+      "playtime_forever": 6,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 1782120,
+      "name": "ZERO Sievert",
+      "playtime_forever": 0,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 493540,
+      "name": "Figment",
+      "playtime_forever": 0,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 367540,
+      "name": "Starbound - Unstable",
+      "playtime_forever": 0,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 282070,
+      "name": "This War of Mine",
+      "playtime_forever": 0,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 571310,
+      "name": "SteamWorld Dig 2",
+      "playtime_forever": 0,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 259810,
+      "name": "Home Sheep Home: Farmageddon Party Edition",
+      "playtime_forever": 0,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 1426210,
+      "name": "It Takes Two",
+      "playtime_forever": 0,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 261570,
+      "name": "Ori and the Blind Forest",
+      "playtime_forever": 0,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 485450,
+      "name": "Ninja Stealth",
+      "playtime_forever": 0,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 1329500,
+      "name": "SpiderHeck",
+      "playtime_forever": 0,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 407530,
+      "name": "ARK: Survival Of The Fittest",
+      "playtime_forever": 0,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 40800,
+      "name": "Super Meat Boy",
+      "playtime_forever": 0,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 2296990,
+      "name": "We Were Here Expeditions: The FriendShip",
+      "playtime_forever": 0,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 464920,
+      "name": "Surviving Mars",
+      "playtime_forever": 0,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 544610,
+      "name": "Battlestar Galactica Deadlock",
+      "playtime_forever": 0,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 383270,
+      "name": "Hue",
+      "playtime_forever": 0,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 29180,
+      "name": "Osmos",
+      "playtime_forever": 0,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 24010,
+      "name": "Train Simulator Classic 2024",
+      "playtime_forever": 0,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 1260320,
+      "name": "Party Animals",
+      "playtime_forever": 0,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 2826180,
+      "name": "ChillPulse",
+      "playtime_forever": 0,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 1507190,
+      "name": "Machinika Museum",
+      "playtime_forever": 0,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 489630,
+      "name": "Warhammer 40,000: Gladius - Relics of War",
+      "playtime_forever": 0,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 442070,
+      "name": "Drawful 2",
+      "playtime_forever": 0,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 2828500,
+      "name": "The Jackbox Megapicker",
+      "playtime_forever": 0,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 1422450,
+      "name": "Deadlock",
+      "playtime_forever": 0,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 1145360,
+      "name": "Hades",
+      "playtime_forever": 0,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 418670,
+      "name": "Pankapu",
+      "playtime_forever": 0,
+      "playtime_2weeks": 0
+    },
+    {
+      "appid": 2796010,
+      "name": "Party Club",
+      "playtime_forever": 0,
+      "playtime_2weeks": 0
+    }
+  ],
+  "review": "【炎炎夏日Quincyの赛博病历本】\n——这位8年老玩家的游戏库能诊出多少电子绝症？\n\n-------\n【电子杨伟の千层套路】\nCS2（1191h）+以撒（888h）= 2079小时枪林弹雨与粪坑蝶泳\n建议ID改为\"FPS与答辩の量子纠缠者\"，在反恐精英和屎尿屁中反复仰卧起坐。表面上《植物大战僵尸》《PVZ》是童年回忆，实则是给被CS队友骂哭时的精神创可贴。更离谱的是《壁纸引擎》居然肝了41小时，建议出书《论如何用动态壁纸假装自己没在打游戏》\n\n-------\n【肉鸽の十万种死法】\n杀戮尖塔/挺进地牢/死亡细胞/Noita...\n这位肉鸽仙人怕是得了\"下一把必出神装\"的赛博赌瘾，光以撒就够生888个电子儿子。但《死亡细胞》只玩1.2小时就躺平，建议改名叫《细胞：活了但没完全活》\n\n-------\n【电子种田の精神分裂】\n星露谷130h+守墓31h+退休模拟器31h\n表面是田园牧歌，实际在《Rusty's Retirement》里用竖屏摸鱼种菜，在《缺氧》2.8小时就窒息而亡。建议联动《山羊模拟器》发动\"种田の千层套路：从零开始的农场主与疯羊生活\"\n\n-------\n【联机游戏の孤独传说】\n《揍击派对》《胡闹厨房》《逃出生天》...\n买联机游戏的速度比朋友消失得还快！《双人成行》0小时说明什么？说明电子杨伟遇到真·阳痿。不过《人类一败涂地》54小时证明：只要四肢不协调，自己也能玩成搞笑游戏\n\n-------\n【喜加一の电子坟场】\n79款游戏里42款＜5h，27款≈新建文件夹\n《哈迪斯》《泰拉瑞亚mod》等神作集体吃灰，却把《ZUP!》系列玩出五部曲——这波属于在4399里寻找3A级快乐。建议成立\"Steam游戏停尸房\"，专门收留《过山车之星》等被始乱终弃的电子怨灵\n\n-------\n【补货推荐】\"这位显眼包需要这些电子伟哥\"\n1.《土豆兄弟》兄弟你Brotato都42h了，不试试《吸血鬼幸存者》？\n2.《潜水员戴夫》白天海底摸鱼，晚上上岸当社畜\n3.《鹅鸭杀启动器》给那堆0小时的联机游戏招魂\n4.《动物派对》治好友列表空荡荡の绝症\n\n-------\n【反鸡汤总结】《关于我在FPS和答辩间反复仰卧起坐这件事》\n- 电子仓鼠症：√\n- 电子ED晚期：√\n- 赛博老农の精神分裂：√\n- 买游戏比玩游戏快乐：√√√\n建议开发新游戏《在仓库吃灰的108种姿势》\n\n-------\n【隐藏成就】\"下次一定の神\"\n达成条件：\n■ 买《双人成行》却永远卡在\"双人\"环节\n■ 用《壁纸引擎》时长碾压3A大作\n■ 在4399小游戏里刷出3A沉浸感\n■ 集齐ZUP!七颗龙珠召唤神龙\n奖励称号：\"电子仓鼠の自我修养\"",
+  "generated_at": "2025-04-16T11:49:57.0644199+08:00"
+}

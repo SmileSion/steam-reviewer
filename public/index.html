@@ -4,6 +4,57 @@
   <meta charset="UTF-8">
   <title>SmileSion的小毒舌</title>
   <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* 主内容区域样式 */
+    #reportContent {
+      min-height: 300px;
+      max-height: 500px;
+      overflow-y: auto;
+      padding: 10px;
+      border: 1px solid #e5e7eb;
+      border-radius: 0.375rem;
+      white-space: pre-wrap;
+      line-height: 1.6;
+      font-size: 0.9375rem;
+    }
+    
+    /* 进度条样式 */
+    .progress-bar {
+      height: 4px;
+      background-color: #3b82f6;
+      transition: width 0.3s ease;
+    }
+    
+    /* 游戏项简洁样式 */
+    .game-item {
+      padding: 3px 6px;
+      margin: 1px 0;
+      font-size: 0.8125rem;
+      border-left: 2px solid #3b82f6;
+      background-color: #f8fafc;
+      display: inline-block;
+      margin-right: 6px;
+      margin-bottom: 4px;
+      border-radius: 0.125rem;
+    }
+    
+    /* 截图专用隐藏区域 */
+    #report-for-capture {
+      width: 650px;
+      padding: 16px;
+      background-color: white;
+      position: absolute;
+      left: -9999px;
+      font-family: sans-serif;
+    }
+    
+    /* 截图区域文本样式 */
+    #report-for-capture #reportContent-capture {
+      white-space: pre-wrap;
+      font-size: 14px;
+      line-height: 1.5;
+    }
+  </style>
 </head>
 <body class="bg-gray-100 font-sans">
   <div class="max-w-3xl mx-auto py-10">
@@ -12,56 +63,232 @@
     <div class="bg-white shadow-md rounded p-6">
       <label class="block mb-2 text-lg font-semibold">请输入Steam用户ID：</label>
       <input id="steamIdInput" class="w-full p-3 border rounded mb-4" placeholder="例如：76561198403581191">
+      
+      <button id="generateBtn" onclick="checkExistingData()" class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 w-full">
+        生成报告
+      </button>
 
-      <button onclick="generateReview()" class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">生成报告</button>
-
-      <div id="loading" class="mt-4 text-gray-600 hidden">🌀 正在生成，请稍候...</div>
+      <div id="loading" class="mt-4 hidden">
+        <div class="flex items-center mb-2">
+          <svg class="animate-spin -ml-1 mr-3 h-5 w-5 text-blue-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+            <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+            <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+          </svg>
+          <span id="loadingText">正在生成报告，请稍候...</span>
+        </div>
+        <div class="w-full bg-gray-200 rounded-full h-2.5">
+          <div id="progressBar" class="progress-bar h-2.5 rounded-full" style="width: 0%"></div>
+        </div>
+      </div>
     </div>
 
     <div id="report" class="bg-white shadow-md rounded p-6 mt-6 hidden">
-      <div id="reportContent" class="whitespace-pre-line"></div>
-      <button onclick="downloadReport()" class="mt-4 bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700">📥 下载图片</button>
+      <div class="flex items-start mb-4">
+        <img id="playerAvatar" src="" class="w-16 h-16 rounded-full mr-3" alt="玩家头像">
+        <div>
+          <h2 id="playerName" class="text-xl font-bold"></h2>
+          <p id="playerInfo" class="text-gray-600 text-sm"></p>
+        </div>
+      </div>
+      
+      <div class="mb-4">
+        <h3 class="text-lg font-semibold mb-2">游戏库概览</h3>
+        <div id="gamesOverview" class="flex flex-wrap gap-1"></div>
+      </div>
+      
+      <h3 class="text-lg font-semibold mb-2">毒舌锐评</h3>
+      <div id="reportContent" class="whitespace-pre-wrap mb-4"></div>
+      
+      <div class="flex justify-between">
+        <button onclick="copyReport()" class="bg-gray-600 text-white px-4 py-2 rounded hover:bg-gray-700">
+          📋 复制内容
+        </button>
+        <button onclick="downloadReport()" class="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700">
+          📥 下载图片
+        </button>
+      </div>
+    </div>
+
+    <!-- 截图专用隐藏区域 -->
+    <div id="report-for-capture">
+      <div class="flex items-start mb-3">
+        <img id="playerAvatar-capture" src="" class="w-14 h-14 rounded-full mr-3" alt="玩家头像">
+        <div>
+          <h2 id="playerName-capture" class="text-lg font-bold"></h2>
+          <p id="playerInfo-capture" class="text-gray-600 text-xs"></p>
+        </div>
+      </div>
+      
+      <div class="mb-3">
+        <h3 class="text-base font-semibold mb-1">游戏库概览</h3>
+        <div id="gamesOverview-capture" class="flex flex-wrap gap-1"></div>
+      </div>
+      
+      <h3 class="text-base font-semibold mb-1">毒舌锐评</h3>
+      <div id="reportContent-capture"></div>
     </div>
   </div>
 
+  <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
   <script>
-    function generateReview() {
-      const steamId = document.getElementById("steamIdInput").value;
-      const loading = document.getElementById("loading");
-      const reportDiv = document.getElementById("report");
-      const reportContent = document.getElementById("reportContent");
+    let isGenerating = false;
 
+    // 检查是否存在已有数据
+    async function checkExistingData() {
+      const steamId = document.getElementById("steamIdInput").value.trim();
       if (!steamId) {
         alert("请输入有效的 Steam ID");
         return;
       }
 
-      loading.classList.remove("hidden");
-      reportDiv.classList.add("hidden");
-      reportContent.innerText = "";
-
-      fetch(`/review?steamid=${steamId}`)
-        .then(res => res.text())
-        .then(data => {
-          loading.classList.add("hidden");
-          reportDiv.classList.remove("hidden");
-          reportContent.innerText = data;
-        })
-        .catch(err => {
-          loading.classList.add("hidden");
-          alert("生成失败：" + err.message);
-        });
+      showLoading("检查已有数据...");
+      
+      try {
+        const response = await fetch(`/check-data?steamid=${encodeURIComponent(steamId)}`);
+        if (!response.ok) throw new Error(await response.text());
+        
+        const result = await response.json();
+        if (result.exists) {
+          const shouldRefresh = confirm("检测到已有数据，是否重新生成？\n(取消将使用上次结果)");
+          if (shouldRefresh) {
+            await generateReview(true);
+          } else {
+            await loadExistingData(steamId);
+          }
+        } else {
+          await generateReview(false);
+        }
+      } catch (error) {
+        alert(`检查数据失败: ${error.message}`);
+      } finally {
+        hideLoading();
+      }
     }
 
-    function downloadReport() {
-      html2canvas(document.querySelector("#report")).then(canvas => {
+    // 加载已有数据
+    async function loadExistingData(steamId) {
+      showLoading("加载已有数据...");
+      try {
+        const response = await fetch(`/review?steamid=${encodeURIComponent(steamId)}`);
+        if (!response.ok) throw new Error(await response.text());
+        
+        const data = await response.json();
+        updateUI(data);
+      } catch (error) {
+        alert(`加载数据失败: ${error.message}`);
+      }
+    }
+
+    // 生成新报告
+    async function generateReview(forceRefresh) {
+      const steamId = document.getElementById("steamIdInput").value.trim();
+      if (!steamId) return;
+
+      isGenerating = true;
+      showLoading(forceRefresh ? "正在生成全新报告..." : "正在生成报告...");
+      document.getElementById("report").classList.add("hidden");
+      
+      try {
+        updateProgress(10);
+        await delay(300);
+        
+        updateProgress(30);
+        const url = `/review?steamid=${encodeURIComponent(steamId)}${forceRefresh ? '&force=true' : ''}`;
+        const response = await fetch(url);
+        
+        updateProgress(70);
+        if (!response.ok) throw new Error(await response.text());
+        
+        const data = await response.json();
+        updateProgress(90);
+        
+        updateUI(data);
+        updateProgress(100);
+        await delay(300);
+      } catch (error) {
+        alert(`生成失败: ${error.message}`);
+      } finally {
+        isGenerating = false;
+        hideLoading();
+      }
+    }
+
+    // 更新UI显示
+    function updateUI(data) {
+      document.getElementById("playerAvatar").src = data.player.avatarfull;
+      document.getElementById("playerAvatar-capture").src = data.player.avatarfull;
+      
+      document.getElementById("playerName").textContent = data.player.personaname;
+      document.getElementById("playerName-capture").textContent = data.player.personaname;
+      
+      const registerDate = new Date(data.player.timecreated * 1000).toLocaleDateString();
+      document.getElementById("playerInfo").textContent = `注册时间: ${registerDate} | 游戏数: ${data.games.length}`;
+      document.getElementById("playerInfo-capture").textContent = `注册时间: ${registerDate} | 游戏数: ${data.games.length}`;
+      
+      // 显示游戏概览
+      const gamesHtml = data.games.slice(0, 12).map(game => 
+        `<div class="game-item">${game.name} <span class="text-gray-500">(${(game.playtime_forever/60).toFixed(1)}h)</span></div>`
+      ).join("");
+      
+      document.getElementById("gamesOverview").innerHTML = gamesHtml;
+      document.getElementById("gamesOverview-capture").innerHTML = gamesHtml;
+      
+      // 显示锐评
+      document.getElementById("reportContent").textContent = data.review;
+      document.getElementById("reportContent-capture").textContent = data.review;
+      
+      document.getElementById("report").classList.remove("hidden");
+    }
+
+    function showLoading(text) {
+      document.getElementById("loadingText").textContent = text || "正在处理...";
+      document.getElementById("loading").classList.remove("hidden");
+      document.getElementById("generateBtn").disabled = true;
+    }
+
+    function hideLoading() {
+      document.getElementById("loading").classList.add("hidden");
+      document.getElementById("generateBtn").disabled = false;
+    }
+
+    function updateProgress(percent) {
+      document.getElementById("progressBar").style.width = `${percent}%`;
+    }
+
+    function delay(ms) {
+      return new Promise(resolve => setTimeout(resolve, ms));
+    }
+
+    function copyReport() {
+      const reportContent = document.getElementById("reportContent");
+      navigator.clipboard.writeText(reportContent.textContent)
+        .then(() => alert("内容已复制到剪贴板"))
+        .catch(err => alert("复制失败: " + err));
+    }
+
+    async function downloadReport() {
+      try {
+        showLoading("正在生成图片...");
+        const captureDiv = document.getElementById("report-for-capture");
+        
+        const canvas = await html2canvas(captureDiv, {
+          scale: 2,
+          logging: false,
+          useCORS: true,
+          windowWidth: 650,
+          windowHeight: captureDiv.scrollHeight + 20
+        });
+        
         const link = document.createElement("a");
-        link.download = "steam_review.png";
-        link.href = canvas.toDataURL();
+        link.download = `Steam锐评_${document.getElementById("playerName").textContent}_${new Date().toISOString().slice(0,10)}.png`;
+        link.href = canvas.toDataURL("image/png");
         link.click();
-      });
+      } catch (error) {
+        alert("生成图片失败，请重试");
+      } finally {
+        hideLoading();
+      }
     }
   </script>
-  <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
 </body>
 </html>
