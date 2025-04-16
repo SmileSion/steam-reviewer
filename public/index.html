@@ -133,85 +133,86 @@
   <script>
     let isGenerating = false;
 
-    // 检查是否存在已有数据
-    async function checkExistingData() {
-      const steamId = document.getElementById("steamIdInput").value.trim();
-      if (!steamId) {
-        alert("请输入有效的 Steam ID");
-        return;
-      }
-
-      showLoading("检查已有数据...");
-      
-      try {
-        const response = await fetch(`/check-data?steamid=${encodeURIComponent(steamId)}`);
-        if (!response.ok) throw new Error(await response.text());
-        
-        const result = await response.json();
-        if (result.exists) {
-          const shouldRefresh = confirm("检测到已有数据，是否重新生成？\n(取消将使用上次结果)");
-          if (shouldRefresh) {
-            await generateReview(true);
-          } else {
-            await loadExistingData(steamId);
-          }
-        } else {
-          await generateReview(false);
-        }
-      } catch (error) {
-        alert(`检查数据失败: ${error.message}`);
-      } finally {
-        hideLoading();
-      }
-    }
-
     // 加载已有数据
-    async function loadExistingData(steamId) {
-      showLoading("加载已有数据...");
-      try {
-        const response = await fetch(`/review?steamid=${encodeURIComponent(steamId)}`);
-        if (!response.ok) throw new Error(await response.text());
-        
-        const data = await response.json();
-        updateUI(data);
-      } catch (error) {
-        alert(`加载数据失败: ${error.message}`);
-      }
-    }
+async function loadExistingData(steamId) {
+  showLoading("加载已有数据...");
+  try {
+    const response = await fetch(`/api/review?steamid=${encodeURIComponent(steamId)}`);
+    if (!response.ok) throw new Error(await response.text());
+    
+    const data = await response.json();
+    updateUI(data);
+  } catch (error) {
+    alert(`加载数据失败: ${error.message}`);
+  }
+}
 
-    // 生成新报告
-    async function generateReview(forceRefresh) {
-      const steamId = document.getElementById("steamIdInput").value.trim();
-      if (!steamId) return;
+// 检查是否存在已有数据
+async function checkExistingData() {
+  const steamId = document.getElementById("steamIdInput").value.trim();
+  if (!steamId) {
+    alert("请输入有效的 Steam ID");
+    return;
+  }
 
-      isGenerating = true;
-      showLoading(forceRefresh ? "正在生成全新报告..." : "正在生成报告...");
-      document.getElementById("report").classList.add("hidden");
-      
-      try {
-        updateProgress(10);
-        await delay(300);
-        
-        updateProgress(30);
-        const url = `/review?steamid=${encodeURIComponent(steamId)}${forceRefresh ? '&force=true' : ''}`;
-        const response = await fetch(url);
-        
-        updateProgress(70);
-        if (!response.ok) throw new Error(await response.text());
-        
-        const data = await response.json();
-        updateProgress(90);
-        
-        updateUI(data);
-        updateProgress(100);
-        await delay(300);
-      } catch (error) {
-        alert(`生成失败: ${error.message}`);
-      } finally {
-        isGenerating = false;
-        hideLoading();
+  showLoading("检查已有数据...");
+  
+  try {
+    const response = await fetch(`/api/check-data?steamid=${encodeURIComponent(steamId)}`);
+    if (!response.ok) throw new Error(await response.text());
+    
+    const result = await response.json();
+    if (result.exists) {
+      const shouldRefresh = confirm("检测到已有数据，是否重新生成？\n(取消将使用上次结果)");
+      if (shouldRefresh) {
+        await generateReview(true);
+      } else {
+        await loadExistingData(steamId);
       }
+    } else {
+      await generateReview(false);
     }
+  } catch (error) {
+    alert(`检查数据失败: ${error.message}`);
+  } finally {
+    hideLoading();
+  }
+}
+
+// 生成新报告
+async function generateReview(forceRefresh) {
+  const steamId = document.getElementById("steamIdInput").value.trim();
+  if (!steamId) return;
+
+  isGenerating = true;
+  showLoading(forceRefresh ? "正在生成全新报告..." : "正在生成报告...");
+  document.getElementById("report").classList.add("hidden");
+  
+  try {
+    updateProgress(10);
+    await delay(300);
+    
+    updateProgress(30);
+    const url = `/api/review?steamid=${encodeURIComponent(steamId)}${forceRefresh ? '&force=true' : ''}`;
+    const response = await fetch(url);
+    
+    updateProgress(70);
+    if (!response.ok) throw new Error(await response.text());
+    
+    const data = await response.json();
+    updateProgress(90);
+    
+    updateUI(data);
+    updateProgress(100);
+    await delay(300);
+  } catch (error) {
+    alert(`生成失败: ${error.message}`);
+  } finally {
+    isGenerating = false;
+    hideLoading();
+  }
+}
+
 
     // 更新UI显示
     function updateUI(data) {
