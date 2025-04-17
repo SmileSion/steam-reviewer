@@ -2,7 +2,7 @@
 <html lang="zh">
 <head>
   <meta charset="UTF-8">
-  <title>SmileSion的小毒舌</title>
+  <title>SmileSionの小毒舌</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <style>
     /* 主内容区域样式 */
@@ -131,13 +131,113 @@
 
   <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
   <script>
+    // 带超时控制的 fetch（默认 10 分钟）
+async function fetchWithTimeout(resource, options = {}, timeout = 600000) {
+  const controller = new AbortController();
+  const id = setTimeout(() => controller.abort(), timeout);
+  try {
+    const response = await fetch(resource, {
+      ...options,
+      signal: controller.signal
+    });
+    clearTimeout(id);
+    return response;
+  } catch (error) {
+    clearTimeout(id);
+    if (error.name === "AbortError") {
+      throw new Error("请求超时，AI构思时间可能稍长，请重试或稍后再来~");
+    }
+    throw error;
+  }
+}
+
+let progressInterval;
+function startProgressSimulation() {
+  let progress = 30;
+  progressInterval = setInterval(() => {
+    if (progress < 85) {
+      progress += Math.random() * 3;
+      updateProgress(progress);
+    }
+  }, 800);
+}
+
+function stopProgressSimulation() {
+  clearInterval(progressInterval);
+}
+
+function showLoading(text) {
+  const messages = [
+    "AI正在认真评估你的游戏人生...",
+    "稍安勿躁，毒舌即将上线...",
+    "生成中，可能需要1分钟，请耐心等待。",
+    "服务器努力讽刺中，请稍等~"
+  ];
+  document.getElementById("loadingText").textContent = text || messages[Math.floor(Math.random() * messages.length)];
+  document.getElementById("loading").classList.remove("hidden");
+  document.getElementById("generateBtn").disabled = true;
+}
+
+function hideLoading() {
+  document.getElementById("loading").classList.add("hidden");
+  document.getElementById("generateBtn").disabled = false;
+}
+
+function updateProgress(percent) {
+  document.getElementById("progressBar").style.width = `${percent}%`;
+}
+
+// 生成新报告
+async function generateReview(forceRefresh) {
+  const steamId = document.getElementById("steamIdInput").value.trim();
+  if (!steamId) return;
+
+  isGenerating = true;
+  showLoading(forceRefresh ? "正在生成全新报告..." : "正在生成报告...");
+  document.getElementById("report").classList.add("hidden");
+
+  try {
+    updateProgress(10);
+    await delay(300);
+
+    updateProgress(30);
+    startProgressSimulation(); // 启动模拟进度
+
+    const url = `/api/review?steamid=${encodeURIComponent(steamId)}${forceRefresh ? '&force=true' : ''}&_=${Date.now()}`;
+    const response = await fetchWithTimeout(url, {}, 600000); // 最长等10分钟
+
+    stopProgressSimulation(); // 请求回来就停掉模拟进度
+    updateProgress(70);
+
+    if (!response.ok) throw new Error(await response.text());
+
+    const data = await response.json();
+    updateProgress(90);
+    updateUI(data);
+    updateProgress(100);
+    await delay(300);
+  } catch (error) {
+    stopProgressSimulation(); // 错误也记得停掉
+    alert(`生成失败: ${error.message}`);
+  } finally {
+    isGenerating = false;
+    hideLoading();
+  }
+}
+
+
+function stopProgressSimulation() {
+  clearInterval(progressInterval);
+}
+
+
     let isGenerating = false;
 
     // 加载已有数据
 async function loadExistingData(steamId) {
   showLoading("加载已有数据...");
   try {
-    const response = await fetch(`/api/review?steamid=${encodeURIComponent(steamId)}`);
+    const response = await fetch(`/api/review?steamid=${encodeURIComponent(steamId)}&_=${Date.now()}`);
     if (!response.ok) throw new Error(await response.text());
     
     const data = await response.json();
@@ -158,7 +258,7 @@ async function checkExistingData() {
   showLoading("检查已有数据...");
   
   try {
-    const response = await fetch(`/api/check-data?steamid=${encodeURIComponent(steamId)}`);
+    const response = await fetch(`/api/check-data?steamid=${encodeURIComponent(steamId)}&_=${Date.now()}`);
     if (!response.ok) throw new Error(await response.text());
     
     const result = await response.json();
@@ -175,40 +275,6 @@ async function checkExistingData() {
   } catch (error) {
     alert(`检查数据失败: ${error.message}`);
   } finally {
-    hideLoading();
-  }
-}
-
-// 生成新报告
-async function generateReview(forceRefresh) {
-  const steamId = document.getElementById("steamIdInput").value.trim();
-  if (!steamId) return;
-
-  isGenerating = true;
-  showLoading(forceRefresh ? "正在生成全新报告..." : "正在生成报告...");
-  document.getElementById("report").classList.add("hidden");
-  
-  try {
-    updateProgress(10);
-    await delay(300);
-    
-    updateProgress(30);
-    const url = `/api/review?steamid=${encodeURIComponent(steamId)}${forceRefresh ? '&force=true' : ''}`;
-    const response = await fetch(url);
-    
-    updateProgress(70);
-    if (!response.ok) throw new Error(await response.text());
-    
-    const data = await response.json();
-    updateProgress(90);
-    
-    updateUI(data);
-    updateProgress(100);
-    await delay(300);
-  } catch (error) {
-    alert(`生成失败: ${error.message}`);
-  } finally {
-    isGenerating = false;
     hideLoading();
   }
 }
@@ -235,26 +301,12 @@ async function generateReview(forceRefresh) {
       document.getElementById("gamesOverview-capture").innerHTML = gamesHtml;
       
       // 显示锐评
-      document.getElementById("reportContent").textContent = data.review;
-      document.getElementById("reportContent-capture").textContent = data.review;
+      document.getElementById("reportContent").innerHTML = data.review;
+      document.getElementById("reportContent-capture").innerHTML = data.review;
       
       document.getElementById("report").classList.remove("hidden");
     }
 
-    function showLoading(text) {
-      document.getElementById("loadingText").textContent = text || "正在处理...";
-      document.getElementById("loading").classList.remove("hidden");
-      document.getElementById("generateBtn").disabled = true;
-    }
-
-    function hideLoading() {
-      document.getElementById("loading").classList.add("hidden");
-      document.getElementById("generateBtn").disabled = false;
-    }
-
-    function updateProgress(percent) {
-      document.getElementById("progressBar").style.width = `${percent}%`;
-    }
 
     function delay(ms) {
       return new Promise(resolve => setTimeout(resolve, ms));

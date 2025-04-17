@@ -26,9 +26,9 @@ func main() {
 	srv := &http.Server{
 		Addr:         ":" + port,
 		Handler:      r,
-		ReadTimeout:  10 * time.Second,
-		WriteTimeout: 10 * time.Minute, // 等 DeepSeek 慢慢来
-		IdleTimeout:  2 * time.Minute,
+		ReadTimeout:  20 * time.Second,
+		WriteTimeout: 15 * time.Minute, // 等 DeepSeek 慢慢来
+		IdleTimeout:  15 * time.Minute,
 	}
 
 	log.Printf("启动服务：http://localhost:%s", port)

@@ -23,6 +23,7 @@ func BuildSavagePrompt(player *model.SteamPlayer, games []model.SteamGame) strin
 3. 指出矛盾点和有趣现象
 4. 最后给出游戏推荐，标题有趣一点，类似“【补货推荐】”
 5. 包含一个玩家总结和彩蛋，玩家总结标题和彩蛋标题也该有趣一点，类似“反鸡汤总结”这样的。
+不要生成markdown格式的！我需要直接展示在前端，可以生成html样式的内容，不需要背景颜色块，不同模块用横杆区分即可，文字颜色和大小可以多样。
 
 玩家信息：
 - 昵称: %s
