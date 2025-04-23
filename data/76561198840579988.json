@@ -1,0 +1,258 @@
+{
+  "player": {
+    "steamid": "76561198840579988",
+    "personaname": "Ed Gavin",
+    "avatarfull": "https://avatars.steamstatic.com/1490f6285d99e9e4a3479b33c3e84dbc240bc708_full.jpg",
+    "timecreated": 1528547512,
+    "loccountrycode": "HK"
+  },
+  "games": [
+    {
+      "appid": 1245620,
+      "name": "ELDEN RING",
+      "playtime_forever": 12095
+    },
+    {
+      "appid": 275850,
+      "name": "No Man's Sky",
+      "playtime_forever": 11107
+    },
+    {
+      "appid": 1449850,
+      "name": "Yu-Gi-Oh!  Master Duel",
+      "playtime_forever": 7429
+    },
+    {
+      "appid": 271590,
+      "name": "Grand Theft Auto V Legacy",
+      "playtime_forever": 7034
+    },
+    {
+      "appid": 1091500,
+      "name": "Cyberpunk 2077",
+      "playtime_forever": 6691
+    },
+    {
+      "appid": 1868140,
+      "name": "DAVE THE DIVER",
+      "playtime_forever": 4800
+    },
+    {
+      "appid": 601510,
+      "name": "Yu-Gi-Oh! Duel Links",
+      "playtime_forever": 4255
+    },
+    {
+      "appid": 1286830,
+      "name": "STAR WARS™: The Old Republic™",
+      "playtime_forever": 3907
+    },
+    {
+      "appid": 1326470,
+      "name": "Sons Of The Forest",
+      "playtime_forever": 3593
+    },
+    {
+      "appid": 730,
+      "name": "Counter-Strike 2",
+      "playtime_forever": 2912
+    },
+    {
+      "appid": 1448440,
+      "name": "Wo Long: Fallen Dynasty",
+      "playtime_forever": 2646
+    },
+    {
+      "appid": 991780,
+      "name": "Notes of Soul",
+      "playtime_forever": 1602
+    },
+    {
+      "appid": 359550,
+      "name": "Tom Clancy's Rainbow Six Siege",
+      "playtime_forever": 1464
+    },
+    {
+      "appid": 2109460,
+      "name": "VillageRhapsody",
+      "playtime_forever": 1443
+    },
+    {
+      "appid": 1954420,
+      "name": "Riichi City",
+      "playtime_forever": 1384
+    },
+    {
+      "appid": 412830,
+      "name": "STEINS;GATE",
+      "playtime_forever": 1307
+    },
+    {
+      "appid": 413150,
+      "name": "Stardew Valley",
+      "playtime_forever": 977
+    },
+    {
+      "appid": 420110,
+      "name": "NEKOPARA Vol. 2",
+      "playtime_forever": 968
+    },
+    {
+      "appid": 714010,
+      "name": "Aimlabs",
+      "playtime_forever": 961
+    },
+    {
+      "appid": 816020,
+      "name": "JUMP FORCE",
+      "playtime_forever": 937
+    },
+    {
+      "appid": 333600,
+      "name": "NEKOPARA Vol. 1",
+      "playtime_forever": 770
+    },
+    {
+      "appid": 1086940,
+      "name": "Baldur's Gate 3",
+      "playtime_forever": 761
+    },
+    {
+      "appid": 644560,
+      "name": "Mirror",
+      "playtime_forever": 738
+    },
+    {
+      "appid": 1585570,
+      "name": "Workplace Rhapsody",
+      "playtime_forever": 543
+    },
+    {
+      "appid": 1774580,
+      "name": "STAR WARS Jedi: Survivor™",
+      "playtime_forever": 490
+    },
+    {
+      "appid": 1222140,
+      "name": "Detroit: Become Human",
+      "playtime_forever": 486
+    },
+    {
+      "appid": 1329410,
+      "name": "雀魂麻将(MahjongSoul)",
+      "playtime_forever": 391
+    },
+    {
+      "appid": 1097150,
+      "name": "Fall Guys",
+      "playtime_forever": 352
+    },
+    {
+      "appid": 1174180,
+      "name": "Red Dead Redemption 2",
+      "playtime_forever": 328
+    },
+    {
+      "appid": 2344520,
+      "name": "Diablo® IV",
+      "playtime_forever": 242
+    },
+    {
+      "appid": 105600,
+      "name": "Terraria",
+      "playtime_forever": 217
+    },
+    {
+      "appid": 223750,
+      "name": "DCS World Steam Edition",
+      "playtime_forever": 213
+    },
+    {
+      "appid": 349040,
+      "name": "NARUTO SHIPPUDEN: Ultimate Ninja STORM 4",
+      "playtime_forever": 157
+    },
+    {
+      "appid": 225840,
+      "name": "Sven Co-op",
+      "playtime_forever": 157
+    },
+    {
+      "appid": 477160,
+      "name": "Human Fall Flat",
+      "playtime_forever": 109
+    },
+    {
+      "appid": 431960,
+      "name": "Wallpaper Engine",
+      "playtime_forever": 81
+    },
+    {
+      "appid": 1426210,
+      "name": "It Takes Two",
+      "playtime_forever": 76
+    },
+    {
+      "appid": 602520,
+      "name": "NEKOPARA Vol. 3",
+      "playtime_forever": 50
+    },
+    {
+      "appid": 438100,
+      "name": "VRChat",
+      "playtime_forever": 43
+    },
+    {
+      "appid": 857940,
+      "name": "Nature Calls",
+      "playtime_forever": 38
+    },
+    {
+      "appid": 1604030,
+      "name": "V Rising",
+      "playtime_forever": 19
+    },
+    {
+      "appid": 1284410,
+      "name": "GWENT: The Witcher Card Game",
+      "playtime_forever": 1
+    },
+    {
+      "appid": 825630,
+      "name": "STEINS;GATE 0",
+      "playtime_forever": 0
+    },
+    {
+      "appid": 292030,
+      "name": "The Witcher 3: Wild Hunt",
+      "playtime_forever": 0
+    },
+    {
+      "appid": 623990,
+      "name": "Tom Clancy's Rainbow Six Siege - Test Server",
+      "playtime_forever": 0
+    },
+    {
+      "appid": 407530,
+      "name": "ARK: Survival Of The Fittest",
+      "playtime_forever": 0
+    },
+    {
+      "appid": 346110,
+      "name": "ARK: Survival Evolved",
+      "playtime_forever": 0
+    },
+    {
+      "appid": 1260320,
+      "name": "Party Animals",
+      "playtime_forever": 0
+    },
+    {
+      "appid": 3240220,
+      "name": "Grand Theft Auto V Enhanced",
+      "playtime_forever": 0
+    }
+  ],
+  "review": "\u003c!-- 玩家档案切片（香菜拌折耳根风味） --\u003e  \n\u003cspan style=\"color:#FF69B4;font-size:18px\"\u003eEd GavinのSteam宇宙观察报告：在电子ED和肝帝の量子叠加态反复横跳\u003c/span\u003e  \n\n---  \n\n\u003cspan style=\"color:#00BFFF\"\u003e【电子阳痿晚期】\u003c/span\u003e  \n这位2018年注册的49胎老司机，表面上1396小时看似肝上长了个肝，实则《艾尔登法环》+《无人深空》直接榨干53%时长——别人是开放世界探索，您是开放世界坐牢，建议改名叫\u003ci\u003e\"老头环与星空の365天\"\u003c/i\u003e。更离谱的是《巫师3》《大镖客2》等传世经典通通0小时，\u003cb\u003e“买了=玩了”定律\u003c/b\u003e在您这儿属实玩明白了！  \n\n\u003cspan style=\"color:#00BFFF\"\u003e【薛定谔的GTA玩家】\u003c/span\u003e  \n《GTA5》经典版117小时 vs 次世代版0小时，像极了当代打工人：嘴上喊着要当洛圣都新王，身体却很诚实地躺进养老院。建议和买了三个ARK却0小时的\u003ci\u003e\"方舟慈善家\"\u003c/i\u003e组成\u003cb\u003e“游戏界水滴筹兄弟连”\u003c/b\u003e。  \n\n\u003cspan style=\"color:#00BFFF\"\u003e【二次元の量子纠缠】\u003c/span\u003e  \n《游戏王》全家桶+雀魂+NEKOPARA三件套构成完美闭环：白天打牌搓麻当牌佬，晚上撸猫娘玩黄油做赛博紳士，建议改名叫\u003ci\u003e\"次元壁拆迁办主任\"\u003c/i\u003e。不过《石头门》21小时就收手？看来您对\u003cspan style=\"text-decoration:line-through\"\u003e时间跳跃\u003c/span\u003e速通成就颇有心得。  \n\n---  \n\n\u003cspan style=\"color:#32CD32;font-size:20px\"\u003e【补货推荐】电子杨伟自救指南\u003c/span\u003e  \n• \u003cb\u003e《Hades》\u003c/b\u003e：既然您能在老头环死200小时，不如试试希腊冥界996，毕竟肉鸽的尽头是电子伟哥  \n• \u003cb\u003e《双人成行》\u003c/b\u003e：库里现成的1.3小时《It Takes Two》说明您急需找个真人缓解赛博自闭  \n• \u003cb\u003e《星露谷物语》\u003c/b\u003e：建议用种田疗法对冲《饥荒》《森林》系列末日PTSD  \n\n---  \n\n\u003cspan style=\"color:#FF4500\"\u003e▍反鸡汤总结：电子ED患者的自我修养\u003c/span\u003e  \n您完美演绎了当代玩家的\u003cspan style=\"color:#FF0000\"\u003e四大皆空\u003c/span\u003e：买游戏像渣男集邮，玩游戏像甲方验货，玩一半像饭圈爬墙，玩通关像中彩票头奖。建议把库名改成《Steam版人类迷惑行为大赏》。  \n\n\u003cspan style=\"color:#FFD700\"\u003e▍彩蛋：隐藏の二五仔\u003c/span\u003e  \n• 《Wallpaper Engine》1.4小时：建议改名叫《动态壁纸启动器卸载模拟器》  \n• 《彩虹六号测试服》0小时：您这波啊，属于是向育碧服务器献祭了信仰但没充值功德  \n• 《Baldur's Gate 3》12.7小时：原来您也会对正经crpg下手啊（震声）！",
+  "generated_at": "2025-04-17T10:56:34.2695256+08:00"
+}

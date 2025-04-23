@@ -1,0 +1,393 @@
+{
+  "player": {
+    "steamid": "76561199088499938",
+    "personaname": "胜者111",
+    "avatarfull": "https://avatars.steamstatic.com/752eb38c3b0bc6f74708ec2c3d44d00bda41edde_full.jpg",
+    "timecreated": 1599373812,
+    "loccountrycode": "CN"
+  },
+  "games": [
+    {
+      "appid": 578080,
+      "name": "PUBG: BATTLEGROUNDS",
+      "playtime_forever": 15271
+    },
+    {
+      "appid": 1217060,
+      "name": "Gunfire Reborn",
+      "playtime_forever": 14459
+    },
+    {
+      "appid": 548430,
+      "name": "Deep Rock Galactic",
+      "playtime_forever": 2717
+    },
+    {
+      "appid": 1238810,
+      "name": "Battlefield™ V",
+      "playtime_forever": 2536
+    },
+    {
+      "appid": 945360,
+      "name": "Among Us",
+      "playtime_forever": 2322
+    },
+    {
+      "appid": 431960,
+      "name": "Wallpaper Engine",
+      "playtime_forever": 1859
+    },
+    {
+      "appid": 1966720,
+      "name": "Lethal Company",
+      "playtime_forever": 1707
+    },
+    {
+      "appid": 880940,
+      "name": "Pummel Party",
+      "playtime_forever": 1646
+    },
+    {
+      "appid": 730,
+      "name": "Counter-Strike 2",
+      "playtime_forever": 1445
+    },
+    {
+      "appid": 552520,
+      "name": "Far Cry 5",
+      "playtime_forever": 1381
+    },
+    {
+      "appid": 1057090,
+      "name": "Ori and the Will of the Wisps",
+      "playtime_forever": 1359
+    },
+    {
+      "appid": 1568590,
+      "name": "Goose Goose Duck",
+      "playtime_forever": 1142
+    },
+    {
+      "appid": 681280,
+      "name": "Descenders",
+      "playtime_forever": 1000
+    },
+    {
+      "appid": 271590,
+      "name": "Grand Theft Auto V Legacy",
+      "playtime_forever": 844
+    },
+    {
+      "appid": 286160,
+      "name": "Tabletop Simulator",
+      "playtime_forever": 726
+    },
+    {
+      "appid": 2567870,
+      "name": "Chained Together",
+      "playtime_forever": 524
+    },
+    {
+      "appid": 1623730,
+      "name": "Palworld",
+      "playtime_forever": 497
+    },
+    {
+      "appid": 1097150,
+      "name": "Fall Guys",
+      "playtime_forever": 479
+    },
+    {
+      "appid": 2379780,
+      "name": "Balatro",
+      "playtime_forever": 462
+    },
+    {
+      "appid": 1222700,
+      "name": "A Way Out",
+      "playtime_forever": 457
+    },
+    {
+      "appid": 1418630,
+      "name": "Dread Hunger",
+      "playtime_forever": 450
+    },
+    {
+      "appid": 457140,
+      "name": "Oxygen Not Included",
+      "playtime_forever": 445
+    },
+    {
+      "appid": 1509960,
+      "name": "PICO PARK",
+      "playtime_forever": 391
+    },
+    {
+      "appid": 977950,
+      "name": "A Dance of Fire and Ice",
+      "playtime_forever": 368
+    },
+    {
+      "appid": 641990,
+      "name": "The Escapists 2",
+      "playtime_forever": 360
+    },
+    {
+      "appid": 594650,
+      "name": "Hunt: Showdown 1896",
+      "playtime_forever": 357
+    },
+    {
+      "appid": 1274570,
+      "name": "DEVOUR",
+      "playtime_forever": 309
+    },
+    {
+      "appid": 2128940,
+      "name": "THE 4 SINS",
+      "playtime_forever": 271
+    },
+    {
+      "appid": 1203220,
+      "name": "NARAKA: BLADEPOINT",
+      "playtime_forever": 234
+    },
+    {
+      "appid": 477160,
+      "name": "Human Fall Flat",
+      "playtime_forever": 209
+    },
+    {
+      "appid": 588430,
+      "name": "Fallout Shelter",
+      "playtime_forever": 189
+    },
+    {
+      "appid": 1943950,
+      "name": "Escape the Backrooms",
+      "playtime_forever": 179
+    },
+    {
+      "appid": 251570,
+      "name": "7 Days to Die",
+      "playtime_forever": 172
+    },
+    {
+      "appid": 582500,
+      "name": "We Were Here",
+      "playtime_forever": 169
+    },
+    {
+      "appid": 550,
+      "name": "Left 4 Dead 2",
+      "playtime_forever": 149
+    },
+    {
+      "appid": 261570,
+      "name": "Ori and the Blind Forest",
+      "playtime_forever": 135
+    },
+    {
+      "appid": 1517290,
+      "name": "Battlefield™ 2042",
+      "playtime_forever": 130
+    },
+    {
+      "appid": 629520,
+      "name": "Soundpad",
+      "playtime_forever": 127
+    },
+    {
+      "appid": 230410,
+      "name": "Warframe",
+      "playtime_forever": 126
+    },
+    {
+      "appid": 774171,
+      "name": "Muse Dash",
+      "playtime_forever": 120
+    },
+    {
+      "appid": 424840,
+      "name": "Little Nightmares",
+      "playtime_forever": 115
+    },
+    {
+      "appid": 677160,
+      "name": "We Were Here Too",
+      "playtime_forever": 107
+    },
+    {
+      "appid": 1172470,
+      "name": "Apex Legends",
+      "playtime_forever": 102
+    },
+    {
+      "appid": 1504980,
+      "name": "It Takes Two Friend's Pass",
+      "playtime_forever": 85
+    },
+    {
+      "appid": 1329410,
+      "name": "雀魂麻将(MahjongSoul)",
+      "playtime_forever": 83
+    },
+    {
+      "appid": 239140,
+      "name": "Dying Light",
+      "playtime_forever": 81
+    },
+    {
+      "appid": 1222680,
+      "name": "Need for Speed™ Heat ",
+      "playtime_forever": 80
+    },
+    {
+      "appid": 704850,
+      "name": "Thief Simulator",
+      "playtime_forever": 67
+    },
+    {
+      "appid": 322330,
+      "name": "Don't Starve Together",
+      "playtime_forever": 63
+    },
+    {
+      "appid": 1782210,
+      "name": "Crab Game",
+      "playtime_forever": 50
+    },
+    {
+      "appid": 739630,
+      "name": "Phasmophobia",
+      "playtime_forever": 41
+    },
+    {
+      "appid": 601150,
+      "name": "Devil May Cry 5",
+      "playtime_forever": 35
+    },
+    {
+      "appid": 1206610,
+      "name": "Rubber Bandits",
+      "playtime_forever": 30
+    },
+    {
+      "appid": 381210,
+      "name": "Dead by Daylight",
+      "playtime_forever": 29
+    },
+    {
+      "appid": 289070,
+      "name": "Sid Meier's Civilization VI",
+      "playtime_forever": 29
+    },
+    {
+      "appid": 1085660,
+      "name": "Destiny 2",
+      "playtime_forever": 27
+    },
+    {
+      "appid": 1064610,
+      "name": "Neon Beats",
+      "playtime_forever": 27
+    },
+    {
+      "appid": 714010,
+      "name": "Aimlabs",
+      "playtime_forever": 26
+    },
+    {
+      "appid": 255710,
+      "name": "Cities: Skylines",
+      "playtime_forever": 21
+    },
+    {
+      "appid": 396900,
+      "name": "GRIP: Combat Racing",
+      "playtime_forever": 18
+    },
+    {
+      "appid": 572430,
+      "name": "Party Hard 2 ",
+      "playtime_forever": 15
+    },
+    {
+      "appid": 1520470,
+      "name": "Soul Dossier",
+      "playtime_forever": 13
+    },
+    {
+      "appid": 2767030,
+      "name": "Marvel Rivals",
+      "playtime_forever": 3
+    },
+    {
+      "appid": 387290,
+      "name": "Ori and the Blind Forest: Definitive Edition",
+      "playtime_forever": 1
+    },
+    {
+      "appid": 865360,
+      "name": "We Were Here Together",
+      "playtime_forever": 0
+    },
+    {
+      "appid": 1341290,
+      "name": "We Were Here Forever",
+      "playtime_forever": 0
+    },
+    {
+      "appid": 3240220,
+      "name": "Grand Theft Auto V Enhanced",
+      "playtime_forever": 0
+    },
+    {
+      "appid": 1301210,
+      "name": "Knockout City™",
+      "playtime_forever": 0
+    },
+    {
+      "appid": 346110,
+      "name": "ARK: Survival Evolved",
+      "playtime_forever": 0
+    },
+    {
+      "appid": 407530,
+      "name": "ARK: Survival Of The Fittest",
+      "playtime_forever": 0
+    },
+    {
+      "appid": 218620,
+      "name": "PAYDAY 2",
+      "playtime_forever": 0
+    },
+    {
+      "appid": 231430,
+      "name": "Company of Heroes 2",
+      "playtime_forever": 0
+    },
+    {
+      "appid": 1930,
+      "name": "Two Worlds: Epic Edition",
+      "playtime_forever": 0
+    },
+    {
+      "appid": 2296990,
+      "name": "We Were Here Expeditions: The FriendShip",
+      "playtime_forever": 0
+    },
+    {
+      "appid": 770720,
+      "name": "Hunt: Showdown 1896 (Test Server)",
+      "playtime_forever": 0
+    },
+    {
+      "appid": 1900,
+      "name": "Earth 2160",
+      "playtime_forever": 0
+    }
+  ],
+  "review": "\u003cdiv style=\"color: #ff6b6b; font-size: 18px; font-weight: bold;\"\u003e🕹️ 胜者111の游戏库锐评：人类早期驯服Steam珍贵影像\u003c/div\u003e\n\u003chr style=\"border-top: 2px dashed #ffd700;\"\u003e\n\n\u003cdiv style=\"color: #70a1ff;\"\u003e\n\u003cb\u003e【成分鉴定报告】\u003c/b\u003e\u003cbr\u003e\n检测到您体内含有：\u003cbr\u003e\n• 52%\u003cspan style=\"color: #ff4757;\"\u003e射击游戏菌\u003c/span\u003e（PUBG+枪火+战地，建议改ID为\u003ci\u003e\"人体描边大师\"\u003c/i\u003e）\u003cbr\u003e\n• 30%\u003cspan style=\"color: #2ed573;\"\u003e社牛病毒\u003c/span\u003e（鹅鸭杀+致命公司，建议出书《关于我把朋友骗进游戏当替死鬼这件事》）\u003cbr\u003e\n• 15%\u003cspan style=\"color: #ffa502;\"\u003e电子杨伟\u003c/span\u003e（买了74个游戏，其中35款游玩时长＜2小时，\u003ci\u003e《赛博仓鼠症候群诊断书》\u003c/i\u003e已寄出）\u003cbr\u003e\n• 3%\u003cspan style=\"color: #a4b0be;\"\u003e迷惑行为\u003c/span\u003e（Wallpaper Engine时长碾压Ori两作，建议改名叫《论壁纸比游戏好玩の科学依据》）\n\u003c/div\u003e\n\u003chr style=\"border-top: 2px dashed #ffd700;\"\u003e\n\n\u003cdiv style=\"color: #ff9f43;\"\u003e\n\u003cb\u003e【当代赛博精分图鉴】\u003c/b\u003e\u003cbr\u003e\n• 一边在PUBG当\u003cspan style=\"font-style: italic;\"\u003e伏地魔\u003c/span\u003e，一边在糖豆人当\u003cspan style=\"font-style: italic;\"\u003e翻滚的土豆\u003c/span\u003e，人体工学椅承受了太多\u003cbr\u003e\n• 买了全套《We Were Here》却永远卡在\"here\"，朋友列表里怕不是只剩鸽子\u003cbr\u003e\n• 《双人成行》朋友通行证玩了1.4小时，建议改名为《关于我如何用1.4小时失去一个朋友》\u003cbr\u003e\n• 玩《文明6》0.5小时就卸载，看来是领悟了\u003cspan style=\"color: #2ed573;\"\u003e\"再玩一回合就通宵\"\u003c/span\u003eの奥义\n\u003c/div\u003e\n\u003chr style=\"border-top: 2px dashed #ffd700;\"\u003e\n\n\u003cdiv style=\"color: #7bed9f;\"\u003e\n\u003cb\u003e【补货推荐】人类早期驯服队友失败后の续命套餐\u003c/b\u003e\u003cbr\u003e\n• 🌟 \u003cspan style=\"color: #ff6b6b;\"\u003e《地狱潜兵2》\u003c/span\u003e：继承枪火重生精神，体验被队友炮火精准锁头的温暖\u003cbr\u003e\n• 🐧 \u003cspan style=\"color: #70a1ff;\"\u003e《动物派对》\u003c/span\u003e：适合您这种表面合作实则想坑人的老六玩家\u003cbr\u003e\n• 💣 \u003cspan style=\"color: #ffa502;\"\u003e《Trepang2》\u003c/span\u003e：治疗电子ED特效药，建议搭配降压药使用\u003cbr\u003e\n• 🎮 \u003cspan style=\"color: #2ed573;\"\u003e《土豆兄弟》\u003c/span\u003e：专治三分钟热度，毕竟一局只要20分钟\n\u003c/div\u003e\n\u003chr style=\"border-top: 2px dashed #ffd700;\"\u003e\n\n\u003cdiv style=\"color: #ff4757;\"\u003e\n\u003cb\u003e💣 反鸡汤总结：当代赛博朋克的自我修养\u003c/b\u003e\u003cbr\u003e\n• 您用981小时证明：\u003cspan style=\"text-decoration: line-through;\"\u003e游戏时长≠游戏水平\u003c/span\u003e≈朋友血压值\u003cbr\u003e\n• 建议在Steam个人简介写上：\"电子魅魔，在线坑人，专业送快递，兼职老六\"\u003cbr\u003e\n• 最后温馨提示：您库里还有\u003cspan style=\"color: #2ed573;\"\u003e12款0小时游戏\u003c/span\u003e正在召唤，建议改名为\"Steam慈善家\"\n\u003c/div\u003e\n\n\u003cdiv style=\"color: #a4b0be; font-size: 12px;\"\u003e\n🍳 彩蛋：检测到您《雀魂麻将》游玩1.4小时后存活，建议申报\u003cspan style=\"color: #ff6b6b;\"\u003e《非酋保护协会》\u003c/span\u003e终身成就奖\n\u003c/div\u003e",
+  "generated_at": "2025-04-17T14:19:00.8252757+08:00"
+}

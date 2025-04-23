@@ -1,0 +1,233 @@
+{
+  "player": {
+    "steamid": "76561199147150423",
+    "personaname": "bluesea",
+    "avatarfull": "https://avatars.steamstatic.com/301a77601f433a4294e2c80214aee470059a361a_full.jpg",
+    "timecreated": 1614772311,
+    "loccountrycode": ""
+  },
+  "games": [
+    {
+      "appid": 578080,
+      "name": "PUBG: BATTLEGROUNDS",
+      "playtime_forever": 25126
+    },
+    {
+      "appid": 714010,
+      "name": "Aimlabs",
+      "playtime_forever": 5520
+    },
+    {
+      "appid": 1217060,
+      "name": "Gunfire Reborn",
+      "playtime_forever": 2329
+    },
+    {
+      "appid": 1966720,
+      "name": "Lethal Company",
+      "playtime_forever": 2316
+    },
+    {
+      "appid": 945360,
+      "name": "Among Us",
+      "playtime_forever": 1988
+    },
+    {
+      "appid": 880940,
+      "name": "Pummel Party",
+      "playtime_forever": 1403
+    },
+    {
+      "appid": 1568590,
+      "name": "Goose Goose Duck",
+      "playtime_forever": 1135
+    },
+    {
+      "appid": 548430,
+      "name": "Deep Rock Galactic",
+      "playtime_forever": 1088
+    },
+    {
+      "appid": 730,
+      "name": "Counter-Strike 2",
+      "playtime_forever": 1056
+    },
+    {
+      "appid": 275850,
+      "name": "No Man's Sky",
+      "playtime_forever": 542
+    },
+    {
+      "appid": 2567870,
+      "name": "Chained Together",
+      "playtime_forever": 540
+    },
+    {
+      "appid": 286160,
+      "name": "Tabletop Simulator",
+      "playtime_forever": 516
+    },
+    {
+      "appid": 1418630,
+      "name": "Dread Hunger",
+      "playtime_forever": 494
+    },
+    {
+      "appid": 2767030,
+      "name": "Marvel Rivals",
+      "playtime_forever": 494
+    },
+    {
+      "appid": 1504980,
+      "name": "It Takes Two Friend's Pass",
+      "playtime_forever": 425
+    },
+    {
+      "appid": 1097150,
+      "name": "Fall Guys",
+      "playtime_forever": 409
+    },
+    {
+      "appid": 431960,
+      "name": "Wallpaper Engine",
+      "playtime_forever": 318
+    },
+    {
+      "appid": 2128940,
+      "name": "THE 4 SINS",
+      "playtime_forever": 276
+    },
+    {
+      "appid": 1509960,
+      "name": "PICO PARK",
+      "playtime_forever": 193
+    },
+    {
+      "appid": 1943950,
+      "name": "Escape the Backrooms",
+      "playtime_forever": 179
+    },
+    {
+      "appid": 582500,
+      "name": "We Were Here",
+      "playtime_forever": 170
+    },
+    {
+      "appid": 1274570,
+      "name": "DEVOUR",
+      "playtime_forever": 163
+    },
+    {
+      "appid": 2835570,
+      "name": "Buckshot Roulette",
+      "playtime_forever": 163
+    },
+    {
+      "appid": 550,
+      "name": "Left 4 Dead 2",
+      "playtime_forever": 153
+    },
+    {
+      "appid": 677160,
+      "name": "We Were Here Too",
+      "playtime_forever": 107
+    },
+    {
+      "appid": 641990,
+      "name": "The Escapists 2",
+      "playtime_forever": 104
+    },
+    {
+      "appid": 3064370,
+      "name": "Dark Hours: Prologue",
+      "playtime_forever": 101
+    },
+    {
+      "appid": 1517290,
+      "name": "Battlefield™ 2042",
+      "playtime_forever": 98
+    },
+    {
+      "appid": 1422450,
+      "name": "Deadlock",
+      "playtime_forever": 77
+    },
+    {
+      "appid": 1172470,
+      "name": "Apex Legends",
+      "playtime_forever": 74
+    },
+    {
+      "appid": 2349820,
+      "name": "Hero's Land",
+      "playtime_forever": 69
+    },
+    {
+      "appid": 477160,
+      "name": "Human Fall Flat",
+      "playtime_forever": 52
+    },
+    {
+      "appid": 1329410,
+      "name": "雀魂麻将(MahjongSoul)",
+      "playtime_forever": 48
+    },
+    {
+      "appid": 289070,
+      "name": "Sid Meier's Civilization VI",
+      "playtime_forever": 8
+    },
+    {
+      "appid": 1366540,
+      "name": "Dyson Sphere Program",
+      "playtime_forever": 8
+    },
+    {
+      "appid": 105600,
+      "name": "Terraria",
+      "playtime_forever": 6
+    },
+    {
+      "appid": 1206610,
+      "name": "Rubber Bandits",
+      "playtime_forever": 3
+    },
+    {
+      "appid": 424840,
+      "name": "Little Nightmares",
+      "playtime_forever": 1
+    },
+    {
+      "appid": 1281930,
+      "name": "tModLoader",
+      "playtime_forever": 1
+    },
+    {
+      "appid": 1341290,
+      "name": "We Were Here Forever",
+      "playtime_forever": 0
+    },
+    {
+      "appid": 2296990,
+      "name": "We Were Here Expeditions: The FriendShip",
+      "playtime_forever": 0
+    },
+    {
+      "appid": 2357570,
+      "name": "Overwatch® 2",
+      "playtime_forever": 0
+    },
+    {
+      "appid": 2073850,
+      "name": "THE FINALS",
+      "playtime_forever": 0
+    },
+    {
+      "appid": 865360,
+      "name": "We Were Here Together",
+      "playtime_forever": 0
+    }
+  ],
+  "review": "\u003cdiv style=\"font-family: 'Microsoft YaHei', sans-serif; line-height: 1.6;\"\u003e\n  \n  \u003c!-- 开场暴击 --\u003e\n  \u003ch3 style=\"color: #ff4444;\"\u003e📢 系统检测到一名\u003cspan style=\"font-size: 1.2em;\"\u003e\"FPS人柱力兼steam仓鼠症晚期患者\"\u003c/span\u003e\u003c/h3\u003e\n  \u003cp\u003ebluesea同学2021年注册至今，用795小时成功达成\u003cb\u003e\"阿根廷人看了流泪，土耳其人看了下跪\"\u003c/b\u003e成就——毕竟44个游戏里，\u003cspan style=\"color: #ff6666;\"\u003e吃鸡独占418小时\u003c/span\u003e相当于把艾伦格地图舔秃了50遍，AimLab练枪92小时却依旧\u003cruby\u003e描边大师\u003crt\u003e🔫人体马赛克生成器\u003c/rt\u003e\u003c/ruby\u003e\u003c/p\u003e\n  \n  \u003chr style=\"border-top: 2px dashed #ccc;\"\u003e\n  \n  \u003c!-- 游戏类型暴言 --\u003e\n  \u003ch3 style=\"color: #4CAF50;\"\u003e🎮 成分分析报告（电子榨菜版）\u003c/h3\u003e\n  \u003cul\u003e\n    \u003cli\u003e\u003cb\u003e人菜瘾大全家桶\u003c/b\u003e：\u003cspan style=\"color: #2196F3;\"\u003ePUBG+CS2+APEX+战地2042\u003c/span\u003e四款FPS共439小时，建议改ID叫\u003ci\u003e\"行走的战争赔款\"\u003c/i\u003e\u003c/li\u003e\n    \u003cli\u003e\u003cb\u003e社交刺客综合症\u003c/b\u003e：\u003cspan style=\"color: #E91E63;\"\u003e鹅鸭杀/among us/致命公司\u003c/span\u003e等13款友尽游戏，\u003cruby\u003e表面合作\u003crt\u003e👻背刺の艺术\u003c/rt\u003e\u003c/ruby\u003e时长却不足200小时，深刻诠释\u003cq\u003e电子阳痿从线下缺德开始\u003c/q\u003e\u003c/li\u003e\n    \u003cli\u003e\u003cb\u003eSteam收藏家的自我修养\u003c/b\u003e：\u003cspan style=\"background: linear-gradient(to right, red, orange); -webkit-background-clip: text; color: transparent;\"\u003e文明6/戴森球计划/泰拉瑞亚\u003c/span\u003e等战略游戏\u003cruby\u003e平均寿命\u003crt\u003e⌛0.1小时\u003c/rt\u003e\u003c/ruby\u003e，建议购买《退款模拟器2024》\u003c/li\u003e\n  \u003c/ul\u003e\n  \n  \u003chr style=\"border-top: 2px dashed #ccc;\"\u003e\n  \n  \u003c!-- 矛盾行为大赏 --\u003e\n  \u003ch3 style=\"color: #9C27B0;\"\u003e💣 年度迷惑行为提名\u003c/h3\u003e\n  \u003cp\u003e▶ 买了\u003cb\u003eWallpaper Engine\u003c/b\u003e却只挂机5小时——说好的\"壁纸引擎启动器\"呢？\u003cbr\u003e\n  ▶ \u003cspan style=\"color: #FF9800;\"\u003eWe Were Here系列\u003c/span\u003e全收集达成，但所有版本总时长不足5小时——朋友跑路的速度比你开麦喊\u003cb\u003e\"有内鬼！\"\u003c/b\u003e还快\u003cbr\u003e\n  ▶ 在《雀魂》充值抽卡的时间都比0.8小时游戏时间长——承认吧，你只是馋纸片人身子！\u003c/p\u003e\n  \n  \u003chr style=\"border-top: 2px dashed #ccc;\"\u003e\n  \n  \u003c!-- 补货推荐 --\u003e\n  \u003ch3 style=\"color: #00BCD4;\"\u003e🛒【缺德超市补货区】\u003c/h3\u003e\n  \u003cp\u003e🔫 \u003cb\u003e《Phasmophobia》\u003c/b\u003e：现有队友尖叫素材过于单一，需要更多\u003cruby\u003e灵异事件\u003crt\u003e👻队友尿裤子名场面\u003c/rt\u003e\u003c/ruby\u003e\u003cbr\u003e\n  👾 \u003cb\u003e《Helldivers 2》\u003c/b\u003e：FPS+友尽+战略三位一体，专治\u003cb\u003e\"阿根廷迁坟后遗症\"\u003c/b\u003e\u003cbr\u003e\n  💘 \u003cb\u003e《鹅鸭杀恋爱模拟器》\u003c/b\u003e：既然这么喜欢背刺，不如和纸片人来场\u003cruby\u003e捅肾之恋\u003crt\u003e❤️🔪\u003c/rt\u003e\u003c/ruby\u003e\u003c/p\u003e\n  \n  \u003chr style=\"border-top: 2px dashed #ccc;\"\u003e\n  \n  \u003c!-- 总结与彩蛋 --\u003e\n  \u003ch4 style=\"color: #795548;\"\u003e📜 反鸡汤总结：\u003ci\u003e\"当你在凝视吃鸡时，游戏库里的0小时游戏也在凝视你\"\u003c/i\u003e\u003c/h4\u003e\n  \u003ch4 style=\"color: #607D8B;\"\u003e🥚 隐藏成就彩蛋：\u003cbr\u003e\n  ▸ 在壁纸引擎里看动态桌面时长超过《双人成行》——真正的\u003cb\u003e\"云玩家の修养\"\u003c/b\u003e\u003cbr\u003e\n  ▸ 拥有所有We Were Here系列却从未通关——解锁称号\u003ci\u003e\"薛定谔的队友\"\u003c/i\u003e\u003c/h4\u003e\n\u003c/div\u003e",
+  "generated_at": "2025-04-17T14:24:16.2097434+08:00"
+}

@@ -1,0 +1,638 @@
+{
+  "player": {
+    "steamid": "76561198180428977",
+    "personaname": "队长别开枪是我",
+    "avatarfull": "https://avatars.steamstatic.com/85f3ba8e18871329aa5effa0c5201f30b9bd0363_full.jpg",
+    "timecreated": 1424349331,
+    "loccountrycode": ""
+  },
+  "games": [
+    {
+      "appid": 730,
+      "name": "Counter-Strike 2",
+      "playtime_forever": 87768
+    },
+    {
+      "appid": 271590,
+      "name": "Grand Theft Auto V Legacy",
+      "playtime_forever": 22714
+    },
+    {
+      "appid": 1174180,
+      "name": "Red Dead Redemption 2",
+      "playtime_forever": 16819
+    },
+    {
+      "appid": 578080,
+      "name": "PUBG: BATTLEGROUNDS",
+      "playtime_forever": 15578
+    },
+    {
+      "appid": 394360,
+      "name": "Hearts of Iron IV",
+      "playtime_forever": 11345
+    },
+    {
+      "appid": 955900,
+      "name": "Amazing Cultivation Simulator",
+      "playtime_forever": 7815
+    },
+    {
+      "appid": 1468810,
+      "name": "鬼谷八荒 Tale of Immortal",
+      "playtime_forever": 6068
+    },
+    {
+      "appid": 1948980,
+      "name": "Hero's Adventure: Road to Passion",
+      "playtime_forever": 5085
+    },
+    {
+      "appid": 1238810,
+      "name": "Battlefield™ V",
+      "playtime_forever": 4864
+    },
+    {
+      "appid": 570,
+      "name": "Dota 2",
+      "playtime_forever": 4841
+    },
+    {
+      "appid": 1569040,
+      "name": "Football Manager 2022",
+      "playtime_forever": 4369
+    },
+    {
+      "appid": 413150,
+      "name": "Stardew Valley",
+      "playtime_forever": 4254
+    },
+    {
+      "appid": 261550,
+      "name": "Mount \u0026 Blade II: Bannerlord",
+      "playtime_forever": 3966
+    },
+    {
+      "appid": 1172620,
+      "name": "Sea of Thieves",
+      "playtime_forever": 3762
+    },
+    {
+      "appid": 105600,
+      "name": "Terraria",
+      "playtime_forever": 3748
+    },
+    {
+      "appid": 1313860,
+      "name": "EA SPORTS™ FIFA 21 ",
+      "playtime_forever": 3393
+    },
+    {
+      "appid": 2358720,
+      "name": "Black Myth: Wukong",
+      "playtime_forever": 3321
+    },
+    {
+      "appid": 1091500,
+      "name": "Cyberpunk 2077",
+      "playtime_forever": 3127
+    },
+    {
+      "appid": 435150,
+      "name": "Divinity: Original Sin 2",
+      "playtime_forever": 2706
+    },
+    {
+      "appid": 814380,
+      "name": "Sekiro™: Shadows Die Twice",
+      "playtime_forever": 2293
+    },
+    {
+      "appid": 495420,
+      "name": "State of Decay 2",
+      "playtime_forever": 2198
+    },
+    {
+      "appid": 433850,
+      "name": "Z1 Battle Royale",
+      "playtime_forever": 2099
+    },
+    {
+      "appid": 227300,
+      "name": "Euro Truck Simulator 2",
+      "playtime_forever": 2046
+    },
+    {
+      "appid": 1245620,
+      "name": "ELDEN RING",
+      "playtime_forever": 1998
+    },
+    {
+      "appid": 548430,
+      "name": "Deep Rock Galactic",
+      "playtime_forever": 1992
+    },
+    {
+      "appid": 239140,
+      "name": "Dying Light",
+      "playtime_forever": 1563
+    },
+    {
+      "appid": 1426210,
+      "name": "It Takes Two",
+      "playtime_forever": 1539
+    },
+    {
+      "appid": 779340,
+      "name": "Total War: THREE KINGDOMS",
+      "playtime_forever": 1409
+    },
+    {
+      "appid": 1696440,
+      "name": "The Matchless Kungfu",
+      "playtime_forever": 1272
+    },
+    {
+      "appid": 994280,
+      "name": "Gujian3(古剑奇谭三)",
+      "playtime_forever": 1194
+    },
+    {
+      "appid": 1517290,
+      "name": "Battlefield™ 2042",
+      "playtime_forever": 1179
+    },
+    {
+      "appid": 2195250,
+      "name": "EA SPORTS FC™ 24",
+      "playtime_forever": 1134
+    },
+    {
+      "appid": 236850,
+      "name": "Europa Universalis IV",
+      "playtime_forever": 1122
+    },
+    {
+      "appid": 1189490,
+      "name": "觅长生",
+      "playtime_forever": 1096
+    },
+    {
+      "appid": 2074800,
+      "name": "Richman 11",
+      "playtime_forever": 1038
+    },
+    {
+      "appid": 1623730,
+      "name": "Palworld",
+      "playtime_forever": 956
+    },
+    {
+      "appid": 431960,
+      "name": "Wallpaper Engine",
+      "playtime_forever": 911
+    },
+    {
+      "appid": 2878980,
+      "name": "NBA 2K25",
+      "playtime_forever": 884
+    },
+    {
+      "appid": 48700,
+      "name": "Mount \u0026 Blade: Warband",
+      "playtime_forever": 858
+    },
+    {
+      "appid": 582010,
+      "name": "Monster Hunter: World",
+      "playtime_forever": 835
+    },
+    {
+      "appid": 1876890,
+      "name": "Wandering Sword",
+      "playtime_forever": 799
+    },
+    {
+      "appid": 916440,
+      "name": "Anno 1800",
+      "playtime_forever": 791
+    },
+    {
+      "appid": 1158310,
+      "name": "Crusader Kings III",
+      "playtime_forever": 756
+    },
+    {
+      "appid": 346110,
+      "name": "ARK: Survival Evolved",
+      "playtime_forever": 723
+    },
+    {
+      "appid": 681830,
+      "name": "Sword and Fairy 5",
+      "playtime_forever": 693
+    },
+    {
+      "appid": 1568590,
+      "name": "Goose Goose Duck",
+      "playtime_forever": 686
+    },
+    {
+      "appid": 821880,
+      "name": "Idol Manager",
+      "playtime_forever": 667
+    },
+    {
+      "appid": 393380,
+      "name": "Squad",
+      "playtime_forever": 613
+    },
+    {
+      "appid": 1313140,
+      "name": "Cult of the Lamb",
+      "playtime_forever": 610
+    },
+    {
+      "appid": 686200,
+      "name": "Door Kickers: Action Squad",
+      "playtime_forever": 597
+    },
+    {
+      "appid": 641990,
+      "name": "The Escapists 2",
+      "playtime_forever": 591
+    },
+    {
+      "appid": 1326470,
+      "name": "Sons Of The Forest",
+      "playtime_forever": 591
+    },
+    {
+      "appid": 359550,
+      "name": "Tom Clancy's Rainbow Six Siege",
+      "playtime_forever": 549
+    },
+    {
+      "appid": 648800,
+      "name": "Raft",
+      "playtime_forever": 545
+    },
+    {
+      "appid": 292030,
+      "name": "The Witcher 3: Wild Hunt",
+      "playtime_forever": 540
+    },
+    {
+      "appid": 672630,
+      "name": "Academia : School Simulator",
+      "playtime_forever": 533
+    },
+    {
+      "appid": 1260320,
+      "name": "Party Animals",
+      "playtime_forever": 507
+    },
+    {
+      "appid": 638970,
+      "name": "Yakuza 0",
+      "playtime_forever": 488
+    },
+    {
+      "appid": 1868140,
+      "name": "DAVE THE DIVER",
+      "playtime_forever": 480
+    },
+    {
+      "appid": 349040,
+      "name": "NARUTO SHIPPUDEN: Ultimate Ninja STORM 4",
+      "playtime_forever": 462
+    },
+    {
+      "appid": 1942280,
+      "name": "Brotato",
+      "playtime_forever": 408
+    },
+    {
+      "appid": 838350,
+      "name": "太吾绘卷 The Scroll Of Taiwu",
+      "playtime_forever": 397
+    },
+    {
+      "appid": 233450,
+      "name": "Prison Architect",
+      "playtime_forever": 355
+    },
+    {
+      "appid": 1551360,
+      "name": "Forza Horizon 5",
+      "playtime_forever": 334
+    },
+    {
+      "appid": 701160,
+      "name": "Kingdom Two Crowns",
+      "playtime_forever": 311
+    },
+    {
+      "appid": 1606180,
+      "name": "下一站江湖Ⅱ",
+      "playtime_forever": 217
+    },
+    {
+      "appid": 952860,
+      "name": "河洛群俠傳 (Ho Tu Lo Shu ： The Books of Dragon)",
+      "playtime_forever": 204
+    },
+    {
+      "appid": 1604030,
+      "name": "V Rising",
+      "playtime_forever": 201
+    },
+    {
+      "appid": 367450,
+      "name": "Poly Bridge",
+      "playtime_forever": 186
+    },
+    {
+      "appid": 552500,
+      "name": "Warhammer: Vermintide 2",
+      "playtime_forever": 147
+    },
+    {
+      "appid": 837470,
+      "name": "Untitled Goose Game",
+      "playtime_forever": 138
+    },
+    {
+      "appid": 1824220,
+      "name": "Chivalry 2",
+      "playtime_forever": 134
+    },
+    {
+      "appid": 374320,
+      "name": "DARK SOULS™ III",
+      "playtime_forever": 84
+    },
+    {
+      "appid": 602960,
+      "name": "Barotrauma",
+      "playtime_forever": 80
+    },
+    {
+      "appid": 204360,
+      "name": "Castle Crashers",
+      "playtime_forever": 79
+    },
+    {
+      "appid": 1021770,
+      "name": " Wanba Warriors",
+      "playtime_forever": 75
+    },
+    {
+      "appid": 632360,
+      "name": "Risk of Rain 2",
+      "playtime_forever": 70
+    },
+    {
+      "appid": 2322560,
+      "name": "Love Is All Around",
+      "playtime_forever": 65
+    },
+    {
+      "appid": 508440,
+      "name": "Totally Accurate Battle Simulator",
+      "playtime_forever": 59
+    },
+    {
+      "appid": 834740,
+      "name": "Circle Empires",
+      "playtime_forever": 56
+    },
+    {
+      "appid": 1206610,
+      "name": "Rubber Bandits",
+      "playtime_forever": 56
+    },
+    {
+      "appid": 976310,
+      "name": "Mortal Kombat 11",
+      "playtime_forever": 55
+    },
+    {
+      "appid": 774861,
+      "name": "Project Winter",
+      "playtime_forever": 55
+    },
+    {
+      "appid": 255710,
+      "name": "Cities: Skylines",
+      "playtime_forever": 52
+    },
+    {
+      "appid": 423580,
+      "name": "Project Highrise",
+      "playtime_forever": 47
+    },
+    {
+      "appid": 2185060,
+      "name": "Two Point Museum",
+      "playtime_forever": 38
+    },
+    {
+      "appid": 460930,
+      "name": "Tom Clancy's Ghost Recon® Wildlands",
+      "playtime_forever": 33
+    },
+    {
+      "appid": 621830,
+      "name": "WRC 7",
+      "playtime_forever": 33
+    },
+    {
+      "appid": 1085660,
+      "name": "Destiny 2",
+      "playtime_forever": 32
+    },
+    {
+      "appid": 107410,
+      "name": "Arma 3",
+      "playtime_forever": 29
+    },
+    {
+      "appid": 513710,
+      "name": "SCUM",
+      "playtime_forever": 16
+    },
+    {
+      "appid": 286160,
+      "name": "Tabletop Simulator",
+      "playtime_forever": 11
+    },
+    {
+      "appid": 1111460,
+      "name": "Bunny eShop",
+      "playtime_forever": 8
+    },
+    {
+      "appid": 439700,
+      "name": "H1Z1: Test Server",
+      "playtime_forever": 4
+    },
+    {
+      "appid": 1288310,
+      "name": "Firework",
+      "playtime_forever": 2
+    },
+    {
+      "appid": 328670,
+      "name": "Deer Hunt Legends",
+      "playtime_forever": 1
+    },
+    {
+      "appid": 386280,
+      "name": "Vendetta - Curse of Raven's Cry",
+      "playtime_forever": 0
+    },
+    {
+      "appid": 340650,
+      "name": "Elements: Soul of Fire",
+      "playtime_forever": 0
+    },
+    {
+      "appid": 407530,
+      "name": "ARK: Survival Of The Fittest",
+      "playtime_forever": 0
+    },
+    {
+      "appid": 1250,
+      "name": "Killing Floor",
+      "playtime_forever": 0
+    },
+    {
+      "appid": 35420,
+      "name": "Killing Floor Mod: Defence Alliance 2",
+      "playtime_forever": 0
+    },
+    {
+      "appid": 378510,
+      "name": "Witches, Heroes and Magic",
+      "playtime_forever": 0
+    },
+    {
+      "appid": 302250,
+      "name": "Manhunter",
+      "playtime_forever": 0
+    },
+    {
+      "appid": 297020,
+      "name": "The Culling Of The Cows",
+      "playtime_forever": 0
+    },
+    {
+      "appid": 296870,
+      "name": "Dreaming Sarah",
+      "playtime_forever": 0
+    },
+    {
+      "appid": 385070,
+      "name": "Atonement: Scourge of Time",
+      "playtime_forever": 0
+    },
+    {
+      "appid": 283370,
+      "name": "Marine Sharpshooter II: Jungle Warfare",
+      "playtime_forever": 0
+    },
+    {
+      "appid": 533820,
+      "name": "Atonement 2: Ruptured by Despair",
+      "playtime_forever": 0
+    },
+    {
+      "appid": 774941,
+      "name": "Squad - Public Testing",
+      "playtime_forever": 0
+    },
+    {
+      "appid": 239200,
+      "name": "Amnesia: A Machine for Pigs",
+      "playtime_forever": 0
+    },
+    {
+      "appid": 412170,
+      "name": "City of Chains",
+      "playtime_forever": 0
+    },
+    {
+      "appid": 57300,
+      "name": "Amnesia: The Dark Descent",
+      "playtime_forever": 0
+    },
+    {
+      "appid": 3240220,
+      "name": "Grand Theft Auto V Enhanced",
+      "playtime_forever": 0
+    },
+    {
+      "appid": 254100,
+      "name": "World War II: Panzer Claws",
+      "playtime_forever": 0
+    },
+    {
+      "appid": 420300,
+      "name": "The Admin",
+      "playtime_forever": 0
+    },
+    {
+      "appid": 420970,
+      "name": "RoBoRumble",
+      "playtime_forever": 0
+    },
+    {
+      "appid": 623990,
+      "name": "Tom Clancy's Rainbow Six Siege - Test Server",
+      "playtime_forever": 0
+    },
+    {
+      "appid": 253940,
+      "name": "Septerra Core",
+      "playtime_forever": 0
+    },
+    {
+      "appid": 488480,
+      "name": "SpaceRoads",
+      "playtime_forever": 0
+    },
+    {
+      "appid": 491950,
+      "name": "Orwell",
+      "playtime_forever": 0
+    },
+    {
+      "appid": 684820,
+      "name": "Singularity Roller",
+      "playtime_forever": 0
+    },
+    {
+      "appid": 664350,
+      "name": "German Fortress 3D",
+      "playtime_forever": 0
+    },
+    {
+      "appid": 660290,
+      "name": "Dungeons \u0026 Geese",
+      "playtime_forever": 0
+    },
+    {
+      "appid": 224900,
+      "name": "Iron Sky Invasion",
+      "playtime_forever": 0
+    },
+    {
+      "appid": 527210,
+      "name": "Janken Cards",
+      "playtime_forever": 0
+    }
+  ],
+  "review": "\u003c!DOCTYPE html\u003e\n\u003chtml\u003e\n\u003cbody\u003e\n\n\u003c!-- 玩家画像 --\u003e\n\u003cdiv style=\"color: #FF69B4; font-size: 18px; font-weight: bold;\"\u003e【电子海洛因批发商の体检报告】\u003c/div\u003e\n\u003cp\u003e尊敬的\u003cdel\u003e仓鼠症晚期患者\u003c/del\u003e队长别开枪是我：\u003c/p\u003e\n\u003cp\u003e您用9年时间喜提125款游戏，其中59款游玩时长不足10小时，24款甚至没点开过——这波啊，这波是《Steam启动器》骨灰级玩家！\u003c/p\u003e\n\n\u003chr style=\"border-top: 2px dashed #FFD700;\"\u003e\n\n\u003c!-- 游戏类型分析 --\u003e\n\u003cdiv style=\"color: #00BFFF; font-weight: bold;\"\u003e【当代吕布の武器架】\u003c/div\u003e\n\u003cp\u003e▶ 开放世界老司机：GTA5+大镖客2+2077=798小时，搁这儿给R星刷功德呢？建议改名叫\u003cem\u003e《西部网约车模拟器》\u003c/em\u003e\u003c/p\u003e\n\u003cp\u003e▶ 枪战片十级学者：从CS2到吃鸡到战地，1462小时还没把FPS玩成TPS，建议领取\u003cem\u003e\"电子美队\"\u003c/em\u003e称号（毕竟盾牌都打烂了）\u003c/p\u003e\n\u003cp\u003e▶ 修仙界在逃长老：鬼谷+觅长生+太吾绘卷=修仙126小时，现实里却连早睡早起都做不到，这就是\u003cem\u003e赛博辟谷\u003c/em\u003e？\u003c/p\u003e\n\u003cp\u003e▶ 精分式养老专家：前脚刚在星露谷种完菜，后脚就开卡车横穿欧洲，转头又去帕鲁世界当黑心老板——当代打工人の多重宇宙\u003c/p\u003e\n\n\u003chr style=\"border-top: 2px dashed #FFD700;\"\u003e\n\n\u003c!-- 矛盾点暴击 --\u003e\n\u003cdiv style=\"color: #FF4500; font-weight: bold;\"\u003e【人类迷惑行为大赏】\u003c/div\u003e\n\u003cul\u003e\n\u003cli\u003e€ 买着Wallpaper Engine看壁纸，玩着黑神话悟空打妖怪——这波二次元与三次元的量子纠缠我悟了\u003c/li\u003e\n\u003cli\u003e€ 钢铁雄心4肝189小时，足球经理72小时，现实生活存档时间：\u003cem\u003e0.0小时\u003c/em\u003e\u003c/li\u003e\n\u003cli\u003e€ 买了双人成行25小时，最后却和帕鲁们共度15.9小时——所以爱会消失对不对？\u003c/li\u003e\n\u003c/ul\u003e\n\n\u003chr style=\"border-top: 2px dashed #FFD700;\"\u003e\n\n\u003c!-- 补货推荐 --\u003e\n\u003cdiv style=\"color: #32CD32; font-weight: bold;\"\u003e【电子杨伟特效药】\u003c/div\u003e\n\u003cp\u003e鉴于您已出现\u003cem\u003e\"买游戏如山倒，玩游戏如抽丝\"\u003c/em\u003e症状，特供：\u003c/p\u003e\n\u003cp\u003e▶ 《师父》：感受真正的\"死\"字怎么写（毕竟您玩只狼38小时还没放弃）\u003c/p\u003e\n\u003cp\u003e▶ 《哈迪斯》：肉鸽修仙新姿势，专治电子ED\u003c/p\u003e\n\u003cp\u003e▶ 《人类一败涂地》：让帕鲁们看看什么叫真正的\u003cem\u003e四肢截肢式打工\u003c/em\u003e\u003c/p\u003e\n\n\u003chr style=\"border-top: 2px dashed #FFD700;\"\u003e\n\n\u003c!-- 玩家总结 --\u003e\n\u003cdiv style=\"color: #BA55D3; font-weight: bold;\"\u003e【反鸡汤总结：电子渣男の自我修养】\u003c/div\u003e\n\u003cp\u003e您完美诠释了当代游戏人的\u003cem\u003e四重人格\u003c/em\u003e：\u003cbr\u003e\n开放世界收藏家 × 枪林弹雨抖M症 × 种田养老幻想家 × 修仙模拟器挂机怪\u003cbr\u003e\n建议申请吉尼斯纪录：《关于我花4357小时证明自己菜还爱玩这件事》\u003c/p\u003e\n\n\u003c!-- 彩蛋 --\u003e\n\u003cdiv style=\"color: #808080; font-size: 12px;\"\u003e【隐藏成就解锁】\u003cbr\u003e\n《电子坟场考古学家》：成功收集24款0小时游戏，包括：\u003cbr\u003e\n\"买GTA5增强版却坚持玩原版\"の倔强\u003cbr\u003e\n\"在测试服反复仰卧起坐\"の执着\u003cbr\u003e\n\"把Amnesia玩成永久失忆\"の行为艺术\u003c/div\u003e\n\n\u003c/body\u003e\n\u003c/html\u003e",
+  "generated_at": "2025-04-17T11:13:17.0759162+08:00"
+}

@@ -1,0 +1,223 @@
+{
+  "player": {
+    "steamid": "76561199075427325",
+    "personaname": "LS",
+    "avatarfull": "https://avatars.steamstatic.com/96ba228d6c0049e7e845fe795ffc4c1285365537_full.jpg",
+    "timecreated": 1595150451,
+    "loccountrycode": ""
+  },
+  "games": [
+    {
+      "appid": 289070,
+      "name": "Sid Meier's Civilization VI",
+      "playtime_forever": 15385
+    },
+    {
+      "appid": 322330,
+      "name": "Don't Starve Together",
+      "playtime_forever": 11999
+    },
+    {
+      "appid": 582010,
+      "name": "Monster Hunter: World",
+      "playtime_forever": 10801
+    },
+    {
+      "appid": 1446780,
+      "name": "MONSTER HUNTER RISE",
+      "playtime_forever": 10007
+    },
+    {
+      "appid": 105600,
+      "name": "Terraria",
+      "playtime_forever": 9585
+    },
+    {
+      "appid": 1336490,
+      "name": "Against the Storm",
+      "playtime_forever": 9393
+    },
+    {
+      "appid": 367520,
+      "name": "Hollow Knight",
+      "playtime_forever": 3465
+    },
+    {
+      "appid": 457140,
+      "name": "Oxygen Not Included",
+      "playtime_forever": 2781
+    },
+    {
+      "appid": 578080,
+      "name": "PUBG: BATTLEGROUNDS",
+      "playtime_forever": 2149
+    },
+    {
+      "appid": 2358720,
+      "name": "Black Myth: Wukong",
+      "playtime_forever": 1911
+    },
+    {
+      "appid": 2379780,
+      "name": "Balatro",
+      "playtime_forever": 1553
+    },
+    {
+      "appid": 1281930,
+      "name": "tModLoader",
+      "playtime_forever": 1532
+    },
+    {
+      "appid": 646570,
+      "name": "Slay the Spire",
+      "playtime_forever": 1514
+    },
+    {
+      "appid": 588650,
+      "name": "Dead Cells",
+      "playtime_forever": 1408
+    },
+    {
+      "appid": 431960,
+      "name": "Wallpaper Engine",
+      "playtime_forever": 1277
+    },
+    {
+      "appid": 2767030,
+      "name": "Marvel Rivals",
+      "playtime_forever": 1154
+    },
+    {
+      "appid": 880940,
+      "name": "Pummel Party",
+      "playtime_forever": 1131
+    },
+    {
+      "appid": 1329410,
+      "name": "雀魂麻将(MahjongSoul)",
+      "playtime_forever": 1084
+    },
+    {
+      "appid": 763890,
+      "name": "Wildermyth",
+      "playtime_forever": 908
+    },
+    {
+      "appid": 1016920,
+      "name": "Unrailed!",
+      "playtime_forever": 644
+    },
+    {
+      "appid": 292030,
+      "name": "The Witcher 3: Wild Hunt",
+      "playtime_forever": 579
+    },
+    {
+      "appid": 945360,
+      "name": "Among Us",
+      "playtime_forever": 547
+    },
+    {
+      "appid": 1504980,
+      "name": "It Takes Two Friend's Pass",
+      "playtime_forever": 534
+    },
+    {
+      "appid": 238460,
+      "name": "BattleBlock Theater",
+      "playtime_forever": 290
+    },
+    {
+      "appid": 1568590,
+      "name": "Goose Goose Duck",
+      "playtime_forever": 247
+    },
+    {
+      "appid": 1127500,
+      "name": "Mini Motorways",
+      "playtime_forever": 230
+    },
+    {
+      "appid": 1377150,
+      "name": "Operation: Tango - Demo",
+      "playtime_forever": 195
+    },
+    {
+      "appid": 324160,
+      "name": "CLANNAD",
+      "playtime_forever": 181
+    },
+    {
+      "appid": 474960,
+      "name": "Quantum Break",
+      "playtime_forever": 169
+    },
+    {
+      "appid": 286160,
+      "name": "Tabletop Simulator",
+      "playtime_forever": 156
+    },
+    {
+      "appid": 203160,
+      "name": "Tomb Raider",
+      "playtime_forever": 137
+    },
+    {
+      "appid": 504230,
+      "name": "Celeste",
+      "playtime_forever": 125
+    },
+    {
+      "appid": 641990,
+      "name": "The Escapists 2",
+      "playtime_forever": 99
+    },
+    {
+      "appid": 2835570,
+      "name": "Buckshot Roulette",
+      "playtime_forever": 82
+    },
+    {
+      "appid": 1497440,
+      "name": "COCOON",
+      "playtime_forever": 53
+    },
+    {
+      "appid": 346010,
+      "name": "Besiege",
+      "playtime_forever": 16
+    },
+    {
+      "appid": 323190,
+      "name": "Frostpunk",
+      "playtime_forever": 7
+    },
+    {
+      "appid": 582500,
+      "name": "We Were Here",
+      "playtime_forever": 3
+    },
+    {
+      "appid": 462990,
+      "name": "Tomoyo After ~It's a Wonderful Life~ English Edition",
+      "playtime_forever": 1
+    },
+    {
+      "appid": 420100,
+      "name": "CLANNAD Side Stories",
+      "playtime_forever": 0
+    },
+    {
+      "appid": 108710,
+      "name": "Alan Wake",
+      "playtime_forever": 0
+    },
+    {
+      "appid": 2527500,
+      "name": "MiSide",
+      "playtime_forever": 0
+    }
+  ],
+  "review": "\u003cdiv style=\"color: #FF69B4; font-size: 24px; font-weight: bold;\"\u003e🪓 LSの赛博精神病诊断报告 🪓\u003c/div\u003e\n\n\u003chr style=\"border: 1px dashed #FF4500;\"\u003e\n\n\u003cp style=\"color: #32CD32; font-size: 18px;\"\u003e📊 游戏成分检测仪：\u003c/p\u003e\n• 您的游戏库仿佛\u003cstrong\u003e《人类早期驯服时间机器实录》\u003c/strong\u003e，42款游戏吃灰率高达71.4%，建议改名叫\u003cdel\u003e电子ED患者\u003c/del\u003e\u003cins\u003e赛博貔貅\u003c/ins\u003e\u003cbr\u003e\n• \u003cspan style=\"color: #FFD700;\"\u003e生存建造PTSD\u003c/span\u003e浓度超标：《饥荒》《缺氧》《风暴之城》三连击，人均脑内自带\u003cem\u003e“天黑前不砍树就会死”\u003c/em\u003e的魔咒\u003cbr\u003e\n• 在《文明6》当256小时秦始皇，却在《巫师3》当9.7小时陶森特观光客，您这\u003cstrong\u003e“下次一定打完”综合症\u003c/strong\u003e需要电疗\u003cbr\u003e\n• 嘴上说\u003cem\u003e“我只玩硬核游戏”\u003c/em\u003e，身体却很诚实地在《雀魂》给二次元美少女送了18小时648\n\n\u003chr style=\"border: 1px dashed #00BFFF;\"\u003e\n\n\u003cp style=\"color: #FF6347; font-size: 18px;\"\u003e🎯 矛盾行为大赏：\u003c/p\u003e\n• 买《Frostpunk》0.1小时就逃出冰汽时代，建议改玩\u003cem\u003e《南方蟑螂模拟器》\u003c/em\u003e更符合生存能力\u003cbr\u003e\n• 《Celeste》2.1小时怒删记录，暴露了\u003cstrong\u003e“云玩家速通嘴强王者”\u003c/strong\u003e身份\u003cbr\u003e\n• 《Wallpaper Engine》21小时登顶使用时长榜，您这波啊，是\u003cdel\u003e买壁纸送游戏\u003c/del\u003e\u003cbr\u003e\n• 《CLANNAD》全家桶吃灰成就达成，建议改ID为\u003cem\u003e“键等雪崩幸存者”\u003c/em\u003e\n\n\u003chr style=\"border: 1px dashed #8A2BE2;\"\u003e\n\n\u003cdiv style=\"color: #FF8C00; font-size: 20px;\"\u003e🍄【电子阳痿自救指南】补货推荐：\u003c/div\u003e\n• 《戴森球计划》——让您从\u003cem\u003e“砍树模拟器”\u003c/em\u003e升级到\u003cstrong\u003e“宇宙黑心资本家”\u003c/strong\u003e\u003cbr\u003e\n• 《星露谷物语》——治愈系种田游戏，专治\u003cdel\u003e文明6后遗症\u003c/del\u003e\u003cins\u003e回合制PTSD\u003c/ins\u003e\u003cbr\u003e\n• 《潜水员戴夫》——既能摸鱼又能当寿司之神，\u003cem\u003e社畜の双重人格模拟器\u003c/em\u003e\u003cbr\u003e\n• 《和班尼特福迪一起攻克难关》——建议配合《文明6》食用，体验\u003cstrong\u003e肉体和精神的双重升天\u003c/strong\u003e\n\n\u003chr style=\"border: 1px double #4B0082;\"\u003e\n\n\u003cp style=\"color: #9370DB; font-size: 18px;\"\u003e💡 反鸡汤总结：电子杨威是假的，菜是真的\u003c/p\u003e\n• 您用1555小时演绎了\u003cstrong\u003e《论人类多样性消亡史》\u003c/strong\u003e，建议报名\u003cem\u003e“游戏圈孔乙己”\u003c/em\u003e大赛\u003cbr\u003e\n• 下次买游戏前默念三遍：\u003cspan style=\"text-decoration: line-through;\"\u003e早买早享受\u003c/span\u003e → \u003cspan style=\"color: #DC143C;\"\u003e不买立省100%\u003c/span\u003e\n\n\u003chr style=\"border: 1px dotted #FF1493;\"\u003e\n\n\u003cp style=\"color: #00CED1; font-size: 16px;\"\u003e✨ 隐藏成就解锁：\u003cbr\u003e\n《喜加一の神》——成功收集CLANNAD全家桶却达成0小时通关，\u003cbr\u003e\n建议在个人简介加上\u003cem\u003e“我买游戏就是为了支持厂商，玩不玩重要吗？”\u003c/em\u003e\u003c/p\u003e",
+  "generated_at": "2025-04-17T14:21:52.3218428+08:00"
+}
